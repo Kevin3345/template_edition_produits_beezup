@@ -8,7 +8,7 @@ ne sont pas évidents à la lecture du code seul.
 
 ## Objectif de l'application
 
-Application Streamlit interne (usage : l'équipe et moi-même) qui gère trois workflows
+Application Streamlit interne (usage : l'équipe et moi-même) qui gère quatre workflows
 autour de l'intégrateur de flux **BeezUP** :
 
 1. **Génération par catégorie** : produit un fichier Excel listant des produits et leurs
@@ -19,9 +19,19 @@ autour de l'intégrateur de flux **BeezUP** :
    contre les chemins tronqués du piège n° 6) et génère un template par catégorie,
    livrés dans un ZIP. Disponible uniquement pour les canaux dont `category_column`
    est renseignée dans `marketplace_config.json` (ex. Maxeda : `online_hybris_category`).
-3. **Réintégration de template** : relit le template complété (issu de l'un ou l'autre
-   workflow de génération) et applique les modifications dans BeezUP via des
-   *overrides* produit.
+3. **Génération par attributs** : l'utilisateur choisit des attributs un par un dans le
+   référentiel complet du canal (sans notion de catégorie) et colle des SKUs → un
+   template unique, au format standard. Cas d'usage chirurgical : corriger 2 attributs
+   sur des SKUs éparpillés sur N catégories.
+4. **Réintégration de template** : relit le template complété (issu de n'importe quel
+   workflow de génération — le format est identique) et applique les modifications
+   dans BeezUP via des *overrides* produit.
+
+**Principe partagé** : les valeurs préremplies viennent toujours de l'export BeezUP,
+jamais d'appels API produit par produit. L'export contient les valeurs **finales**
+envoyées à la marketplace (overrides déjà appliqués, mélangés aux valeurs d'origine) :
+c'est la source de vérité, à la fois pour le préremplissage et pour le diff de
+réintégration.
 
 Toute l'application repose sur l'API BeezUP (`https://api.beezup.com`).
 
@@ -49,6 +59,7 @@ views/
   attributes_view.py
   export_view.py        # Génération par catégorie
   export_by_skus_view.py # Génération par SKUs (multi-templates + ZIP)
+  export_by_attributes_view.py # Génération par attributs (template unique)
   import_view.py        # Réintégration de template
 ```
 
@@ -180,18 +191,23 @@ mécanismes complémentaires :
 
 ## Conventions de traitement des données
 
-### Colonne EAN (index 4 du template)
+### Colonnes EAN (détection par motif)
 
 L'EAN doit rester une chaîne de **13 caractères avec zéros de tête**. Deux endroits :
-- **Génération** : `normalize_export_data` applique `zfill(13)` sur l'index 4, uniquement
-  sur les valeurs non vides (sinon un EAN vide devient `"0000000000000"`).
+- **Génération** : `normalize_export_data` applique `zfill(13)` sur les colonnes EAN,
+  uniquement sur les valeurs non vides (sinon un EAN vide devient `"0000000000000"`).
 - **Réintégration** : `run_comparison_for_file` lit le template avec un `converter`
-  (`_ean_converter`) appliqué à l'index 4 **au moment du `pd.read_excel`**. C'est crucial :
-  sans converter, pandas infère un type numérique et supprime le zéro de tête avant même
-  qu'on puisse le corriger.
+  (`_ean_converter`) appliqué aux colonnes EAN **au moment du `pd.read_excel`**. C'est
+  crucial : sans converter, pandas infère un type numérique et supprime le zéro de tête
+  avant même qu'on puisse le corriger.
 
-L'index 4 est hardcodé car l'ordre des colonnes du template est fixe et contrôlé par
-l'application (Product Id, Catalog Id, Channel Category Path, SKU, EAN, ...).
+Les colonnes EAN sont détectées par **motif sur le label** (`_is_ean_column` :
+ean/gtin/upc/barcode/code-barre, avec garde-fous contre les faux positifs type
+"Jeanne" ou "Barre de son"). L'ancienne règle positionnelle (index 4) a été abandonnée
+avec l'arrivée de la génération par attributs, où n'importe quel attribut peut occuper
+cette position. Si un canal nomme son attribut code-barres de façon exotique (hors
+motif), le symptôme est la perte des zéros de tête dans le template → ajouter le
+motif dans `_EAN_COLUMN_PATTERN`.
 
 ### Structure du template Excel (3 onglets)
 

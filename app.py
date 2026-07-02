@@ -21,6 +21,7 @@ from logger_utils import get_log_context, setup_logging
 from views import (
     attributes_view,
     category_view,
+    export_by_attributes_view,
     export_by_skus_view,
     export_view,
     import_view,
@@ -97,9 +98,10 @@ def main():
         st.caption("Fait avec 💕 par ShadBeez")
 
     # --- Onglets principaux ---
-    tab1, tab2, tab3 = st.tabs([
+    tab1, tab2, tab3, tab4 = st.tabs([
         "G\u00C9N\u00C9RER PAR CAT\u00C9GORIE",
         "G\u00C9N\u00C9RER PAR SKUS",
+        "G\u00C9N\u00C9RER PAR ATTRIBUTS",
         "\u00C9DITER DES PRODUITS"
     ])
 
@@ -126,6 +128,10 @@ def main():
         export_by_skus_view.render()
 
     with tab3:
+        st.space("small")
+        export_by_attributes_view.render()
+
+    with tab4:
         st.space("small")
         import_view.render()
 

@@ -41,6 +41,12 @@ def get_defaults() -> dict:
         "skus_generation_results": None,
         "last_skus_generation_key": None,
 
+        # Export par attributs (template unique, sans notion de catégorie)
+        "attrs_referential": None,
+        "attrs_referential_catalog": None,
+        "attrs_generation_results": None,
+        "last_attrs_generation_key": None,
+
         # Import (réintégration)
         "import_results": None,
         "import_fingerprint": None,

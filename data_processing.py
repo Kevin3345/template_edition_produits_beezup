@@ -1,3 +1,4 @@
+import re
 import warnings
 from typing import Optional
 
@@ -10,6 +11,24 @@ import api_services as api
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
+# Détection des colonnes code-barres par leur label ("core_gtin | uuid", "EANs/EAN",
+# "Code barre"...). Les lookarounds excluent les mots contenant "ean"/"gtin" par
+# accident (ex. "Jeanne") tout en acceptant les séparateurs _ / | espace.
+_EAN_COLUMN_PATTERN = re.compile(
+    r"(?<![a-z0-9])(ean|gtin|upc|barcode)s?(?![a-z0-9])|code.?barre",
+    re.IGNORECASE,
+)
+
+
+def _is_ean_column(column_name) -> bool:
+    """
+    Détermine si une colonne contient un code-barres (traitement chaîne 13 caractères).
+    Remplace l'ancienne règle positionnelle (index 4) : dans les templates générés
+    par attributs, n'importe quel attribut peut occuper cette position.
+    """
+    return bool(_EAN_COLUMN_PATTERN.search(str(column_name)))
+
 
 def _ean_converter(x) -> str:
     """
@@ -253,8 +272,9 @@ def format_final_template(
 
 def normalize_export_data(df_template: pd.DataFrame, df_list_of_values: pd.DataFrame) -> pd.DataFrame:
     """
-    Nettoyage et normalisation des types de données selon la structure fixe du template.
-    La colonne à l'index 4 (EAN/GTIN) est traitée comme une chaîne à 13 caractères.
+    Nettoyage et normalisation des types de données du template.
+    Les colonnes code-barres (détectées par _is_ean_column) sont traitées
+    comme des chaînes à 13 caractères avec zéros de tête.
     """
     df = df_template.copy()
 
@@ -263,8 +283,8 @@ def normalize_export_data(df_template: pd.DataFrame, df_list_of_values: pd.DataF
         logger.warning(f"normalize_export_data : colonnes dupliquées supprimées : {cols_doubles}")
         df = df.loc[:, ~df.columns.duplicated()]
 
-    for i, col in enumerate(df.columns):
-        if i == 4:
+    for col in df.columns:
+        if _is_ean_column(col):
             # Colonne EAN : format texte 13 caractères avec zéros de tête.
             # zfill appliqué uniquement sur les valeurs non vides pour éviter "0000000000000".
             df[col] = (
@@ -489,7 +509,7 @@ def run_comparison_for_file(client, excel_file) -> dict:
     :raises ValueError:  Fichier invalide (structure, Catalog Id vide, DataInfo manquant).
     :raises Exception:   Échec d'un appel API.
     """
-    # --- Lecture de l'en-tête pour préparer le converter EAN (index 4) ---
+    # --- Lecture de l'en-tête pour préparer les converters EAN ---
     if hasattr(excel_file, "seek"):
         excel_file.seek(0)
 
@@ -497,7 +517,7 @@ def run_comparison_for_file(client, excel_file) -> dict:
         warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
         header = pd.read_excel(excel_file, sheet_name="Template", nrows=0)
 
-    converters = {header.columns[4]: _ean_converter} if len(header.columns) > 4 else {}
+    converters = {col: _ean_converter for col in header.columns if _is_ean_column(col)}
 
     # --- Lecture complète du template avec converter EAN ---
     if hasattr(excel_file, "seek"):

@@ -3,13 +3,17 @@
 Application Streamlit interne pour gérer l'édition de produits via l'intégrateur
 de flux [BeezUP](https://www.beezup.com) :
 
-1. **Génération de template** — produit un fichier Excel listant les produits d'une
-   catégorie d'un canal de vente avec leurs attributs (Required / Recommended /
-   Optional), valeurs existantes préremplies et menus déroulants pour les listes
-   bornées.
-2. **Réintégration de template** — relit le template complété, calcule le diff avec
-   l'état actuel du catalogue et applique les modifications dans BeezUP via des
-   *overrides* produit.
+1. **Génération par catégorie** — un fichier Excel listant les produits d'une
+   catégorie avec leurs attributs (Required / Recommended / Optional), valeurs
+   préremplies et menus déroulants pour les listes bornées.
+2. **Génération par SKUs** — une liste de SKUs toutes catégories confondues →
+   un template par catégorie, livrés dans un ZIP (canaux configurés dans
+   `marketplace_config.json`).
+3. **Génération par attributs** — des attributs choisis un par un, sans notion
+   de catégorie → un template unique (cas chirurgical multi-catégories).
+4. **Réintégration de template** — relit un template complété (quel que soit le
+   workflow d'origine), calcule le diff avec l'export BeezUP et applique les
+   modifications via des *overrides* produit.
 
 ## Démarrage rapide
 
