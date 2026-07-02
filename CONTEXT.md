@@ -13,6 +13,10 @@ autour de l'intégrateur de flux **BeezUP** :
 
 1. **Génération par catégorie** : produit un fichier Excel listant des produits et leurs
    attributs (avec valeurs manquantes à compléter) pour une catégorie d'un canal de vente.
+   La sélection d'attributs se fait par **statut uniquement** (Required/Recommended/
+   Optional) — la notion de Source (Channel/Cross/Category) reste interne. Les
+   `excluded_attributes` du canal sont filtrés en amont, invisibles même en sélection
+   manuelle (interdit = interdit).
 2. **Génération par SKUs** : l'utilisateur colle une liste de SKUs (toutes catégories
    confondues) ; l'app regroupe les produits par catégorie via la **colonne catégorie de
    l'export BeezUP** (jointure par `channelCategoryCode`, pas par chemin — immunisé

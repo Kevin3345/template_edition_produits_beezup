@@ -52,19 +52,12 @@ def render(selected_category_path: str):
                     return None
 
         # 2. Interface de filtrage
+        # La sélection se fait uniquement par statut : la notion de "Source"
+        # (Channel/Cross/Category) est de la plomberie API, pas un concept métier.
+        # Le bruit technique est filtré en amont via excluded_attributes
+        # (marketplace_config.json), comme dans les autres workflows.
         df_attr = st.session_state.df_all_attributes
-        col_source, col_status, col_select = st.columns([1, 1, 1.5])
-
-        with col_source:
-            st.markdown("**Sources :**")
-            available_sources = [s for s in df_attr["Source"].unique() if s != "Obligatory"]
-            selected_sources = st.pills(
-                "Sources",
-                label_visibility="collapsed",
-                options=available_sources,
-                selection_mode="multi",
-                key=f"pills_src_{selected_category_path}"
-            )
+        col_status, col_select = st.columns([1, 2])
 
         with col_status:
             st.markdown("**Statuts :**")
@@ -85,11 +78,7 @@ def render(selected_category_path: str):
         # 3. Calcul de la sélection finale
         df_obligatory = df_attr[df_attr["Source"] == "Obligatory"]
 
-        mask = (
-                df_attr["Source"].isin(selected_sources or []) &
-                df_attr["Status"].isin(selected_statuses or [])
-        )
-        df_filtered = df_attr[mask]
+        df_filtered = df_attr[df_attr["Status"].isin(selected_statuses or [])]
         current_selection = pd.concat([df_obligatory, df_filtered]).drop_duplicates(subset=["Label"])
 
         remaining_attr = df_attr[~df_attr["Label"].isin(current_selection["Label"])]
@@ -101,7 +90,7 @@ def render(selected_category_path: str):
                 "Attributs non sélectionnés",
                 label_visibility="collapsed",
                 options=extra_options,
-                format_func=lambda r: f"{r['Attribute Name']} | {r['Source']}",
+                format_func=lambda r: f"{r['Attribute Name']} — {r['Status']}",
                 key=f"extra_{selected_category_path}"
             )
 
@@ -161,6 +150,21 @@ def _load_attributes(
     # Dédoublonnage + colonne Label
     df_clean = proc.dedupe_keep_most_restrictive(df_concat)
 
+    # Attributs interdits pour ce canal : filtrés avant tout affichage
+    # (invisibles aussi dans la sélection manuelle — interdit = interdit)
+    channel_config = get_channel_config(store_name)
+    excluded = set(channel_config["excluded_attributes"])
+
+    if excluded:
+        nb_before = len(df_clean)
+        df_clean = df_clean[~df_clean["Attribute Code"].isin(excluded)].reset_index(drop=True)
+
+        if nb_before - len(df_clean):
+            logger.info(
+                f"{nb_before - len(df_clean)} attribut(s) exclu(s) via marketplace_config.json "
+                f"(canal '{channel_config['sales_channel']}')."
+            )
+
     # Colonne Is Mapped
     mapping_dict = api.get_column_mapping_dict(client, catalog_id)
     df_clean["Is Mapped"] = df_clean["Channel Attribute Id"].apply(
@@ -168,7 +172,6 @@ def _load_attributes(
     )
 
     # Attributs obligatoires depuis la configuration marketplace
-    channel_config = get_channel_config(store_name)
     required_attributes_clean = channel_config["required_attributes"]
 
     if not required_attributes_clean:
