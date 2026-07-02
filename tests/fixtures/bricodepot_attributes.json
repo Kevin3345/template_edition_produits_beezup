@@ -1,0 +1,391 @@
+[
+ {
+  "channelFullCategoryPath": "Cross Categories",
+  "channelOriginCategoryName": "Cross Categories",
+  "attributes": [
+   {
+    "channelAttributeId": "e2f54a97-d91b-4216-901b-ade3b32ff44f",
+    "attributeName": "Advertencias/Información de seguridad (es_ES)",
+    "attributeCode": "gpsr_warn_safety_info-es_ES",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "6590",
+  "channelCategoryName": "Almacenamiento de zapatos (interno, incorporado)",
+  "channelFullCategoryPath": "Almacenamiento > Otro espacio de almacenamiento en vivo > Otro espacio de almacenamiento en vivo > Almacenamiento de zapatos (interno, incorporado)",
+  "channelOriginCategoryName": "Almacenamiento de zapatos (interno, incorporado)",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Optional",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7860",
+  "channelCategoryName": "almacenamiento suave",
+  "channelFullCategoryPath": "Herramientas > Equipo de taller > Almacenamiento de herramientas > almacenamiento suave",
+  "channelOriginCategoryName": "almacenamiento suave",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "6659",
+  "channelCategoryName": "Asientos y conjuntos de cocina",
+  "channelFullCategoryPath": "Mobiliario de cocina > Almacenamiento y suministros de cocina. > Papeleras y taburetes > Asientos y conjuntos de cocina",
+  "channelOriginCategoryName": "Asientos y conjuntos de cocina",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "6574",
+  "channelCategoryName": "Camas independientes",
+  "channelFullCategoryPath": "Almacenamiento > Otro espacio de almacenamiento en vivo > almacenamiento de dormitorio > Camas independientes",
+  "channelOriginCategoryName": "Camas independientes",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "6571",
+  "channelCategoryName": "Cómodas",
+  "channelFullCategoryPath": "Almacenamiento > Otro espacio de almacenamiento en vivo > almacenamiento de dormitorio > Cómodas",
+  "channelOriginCategoryName": "Cómodas",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7428",
+  "channelCategoryName": "Conjuntos de muebles de jardín",
+  "channelFullCategoryPath": "Mobiliario y almacenamiento exterior, piscinas y barbacoas > Muebles de jardín y accesorios > Mueble de jardín > Conjuntos de muebles de jardín",
+  "channelOriginCategoryName": "Conjuntos de muebles de jardín",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7266",
+  "channelCategoryName": "Cortasetos",
+  "channelFullCategoryPath": "Césped, herramientas de jardín y riego > Herramientas manuales de jardín > Herramientas de corte y poda > Cortasetos",
+  "channelOriginCategoryName": "Cortasetos",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7197",
+  "channelCategoryName": "Cortasetos inalámbrico y accesorios",
+  "channelFullCategoryPath": "Césped, herramientas de jardín y riego > Herramientas eléctricas de jardín > Cortasetos > Cortasetos inalámbrico y accesorios",
+  "channelOriginCategoryName": "Cortasetos inalámbrico y accesorios",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7245",
+  "channelCategoryName": "Herramientas para cavar y plantar",
+  "channelFullCategoryPath": "Césped, herramientas de jardín y riego > Herramientas manuales de jardín > Artículos diversos de jardinería > Herramientas para cavar y plantar",
+  "channelOriginCategoryName": "Herramientas para cavar y plantar",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "6572",
+  "channelCategoryName": "Juegos de sofá y cama",
+  "channelFullCategoryPath": "Almacenamiento > Otro espacio de almacenamiento en vivo > almacenamiento de dormitorio > Juegos de sofá y cama",
+  "channelOriginCategoryName": "Juegos de sofá y cama",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Optional",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7436",
+  "channelCategoryName": "Mesas",
+  "channelFullCategoryPath": "Mobiliario y almacenamiento exterior, piscinas y barbacoas > Muebles de jardín y accesorios > Mueble de jardín > Mesas",
+  "channelOriginCategoryName": "Mesas",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7254",
+  "channelCategoryName": "Picas y palas",
+  "channelFullCategoryPath": "Césped, herramientas de jardín y riego > Herramientas manuales de jardín > Artículos diversos de jardinería > Picas y palas",
+  "channelOriginCategoryName": "Picas y palas",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7248",
+  "channelCategoryName": "rastrillo de jardín",
+  "channelFullCategoryPath": "Césped, herramientas de jardín y riego > Herramientas manuales de jardín > Artículos diversos de jardinería > rastrillo de jardín",
+  "channelOriginCategoryName": "rastrillo de jardín",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7073",
+  "channelCategoryName": "RESTRINGIDO - Bolsas de basura",
+  "channelFullCategoryPath": "Pintura exterior, herramienta de pintura y productos químicos > Ferretería y productos químicos > Bolsas > RESTRINGIDO - Bolsas de basura",
+  "channelOriginCategoryName": "RESTRINGIDO - Bolsas de basura",
+  "attributes": [
+   {
+    "channelAttributeId": "5d88f1ff-6b68-427a-9bcc-f4665ea77283",
+    "attributeName": "A partir de material reciclado",
+    "attributeCode": "technical_material_recliclado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_material_recliclado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7074",
+  "channelCategoryName": "RESTRINGIDO - Bolsas de jardín",
+  "channelFullCategoryPath": "Pintura exterior, herramienta de pintura y productos químicos > Ferretería y productos químicos > Bolsas > RESTRINGIDO - Bolsas de jardín",
+  "channelOriginCategoryName": "RESTRINGIDO - Bolsas de jardín",
+  "attributes": [
+   {
+    "channelAttributeId": "5d88f1ff-6b68-427a-9bcc-f4665ea77283",
+    "attributeName": "A partir de material reciclado",
+    "attributeCode": "technical_material_recliclado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_material_recliclado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7246",
+  "channelCategoryName": "RESTRINGIDO - tenedores",
+  "channelFullCategoryPath": "Césped, herramientas de jardín y riego > Herramientas manuales de jardín > Artículos diversos de jardinería > RESTRINGIDO - tenedores",
+  "channelOriginCategoryName": "RESTRINGIDO - tenedores",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "6539",
+  "channelCategoryName": "Sillas",
+  "channelFullCategoryPath": "Almacenamiento > Muebles de oficina > Muebles de oficina > Sillas",
+  "channelOriginCategoryName": "Sillas",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7427",
+  "channelCategoryName": "sillas de jardin",
+  "channelFullCategoryPath": "Mobiliario y almacenamiento exterior, piscinas y barbacoas > Muebles de jardín y accesorios > Mueble de jardín > sillas de jardin",
+  "channelOriginCategoryName": "sillas de jardin",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7429",
+  "channelCategoryName": "Sofás de jardín",
+  "channelFullCategoryPath": "Mobiliario y almacenamiento exterior, piscinas y barbacoas > Muebles de jardín y accesorios > Mueble de jardín > Sofás de jardín",
+  "channelOriginCategoryName": "Sofás de jardín",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7477",
+  "channelCategoryName": "Spa",
+  "channelFullCategoryPath": "Mobiliario y almacenamiento exterior, piscinas y barbacoas > Ocio al aire libre > Balnearios y Saunas > Spa",
+  "channelOriginCategoryName": "Spa",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7263",
+  "channelCategoryName": "Tijeras de poda",
+  "channelFullCategoryPath": "Césped, herramientas de jardín y riego > Herramientas manuales de jardín > Herramientas de corte y poda > Tijeras de poda",
+  "channelOriginCategoryName": "Tijeras de poda",
+  "attributes": [
+   {
+    "channelAttributeId": "59c3bbc3-44e7-4935-a6cb-3240da45e7a7",
+    "attributeName": "Advertencias/Información de seguridad",
+    "attributeCode": "gpsr_warn_safety_info",
+    "status": "Optional",
+    "typeValue": "LONG_TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "7434",
+  "channelCategoryName": "Tumbonas de sol y ocio",
+  "channelFullCategoryPath": "Mobiliario y almacenamiento exterior, piscinas y barbacoas > Muebles de jardín y accesorios > Mueble de jardín > Tumbonas de sol y ocio",
+  "channelOriginCategoryName": "Tumbonas de sol y ocio",
+  "attributes": [
+   {
+    "channelAttributeId": "d3baa784-a397-4c8f-a5cc-feedc7d91ddf",
+    "attributeName": "Acabado",
+    "attributeCode": "technical_acabado",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "technical_acabado",
+    "defaultValue": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,4522 @@
+[
+ {
+  "channelFullCategoryPath": "Cross Categories",
+  "channelOriginCategoryName": "Cross Categories",
+  "attributes": [
+   {
+    "channelAttributeId": "84aa0e0a-bd5e-4b0d-983d-f12851f2bde0",
+    "attributeName": "[IDX] Date de commercialisation",
+    "attributeCode": "release_date",
+    "status": "Optional",
+    "typeValue": "DATE",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Accessoire air hockey",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Accessoire billard - Snooker",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Accessoire fléchette",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Accessoire véhicule enfant",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17050100",
+  "channelCategoryName": "Agrafeuse manuelle",
+  "channelFullCategoryPath": "Machine et outil manuel > Ustensile d'attache et fixation > Agrafeuse manuelle",
+  "channelOriginCategoryName": "Agrafeuse de bureau",
+  "attributes": [
+   {
+    "channelAttributeId": "516bdd8e-ae5b-4ff7-bf12-0d3610e8426e",
+    "attributeName": "Conçu pour",
+    "attributeCode": "desk_accessory_made_for",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "desk_accessory_made_for",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20020300",
+  "channelCategoryName": "Aimant - Magnet",
+  "channelFullCategoryPath": "Produit consommable > Attache et fixation mécanique > Aimant - Magnet",
+  "channelOriginCategoryName": "Aimant basique - Aimant pour tableau",
+  "attributes": [
+   {
+    "channelAttributeId": "454e88b4-e3a2-487c-8fdc-a875e390bde5",
+    "attributeName": "Fonctionnalités",
+    "attributeCode": "features_presentation",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_presentation",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12060000",
+  "channelCategoryName": "Jeu de café",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de café",
+  "channelOriginCategoryName": "Air hockey",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07051501",
+  "channelCategoryName": "Album photo",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Transport et rangement > Album de classement > Album photo",
+  "channelOriginCategoryName": "Album photo",
+  "attributes": [
+   {
+    "channelAttributeId": "3c6a6aa9-9da7-4f1e-93e5-e1d64fc941d4",
+    "attributeName": "Matière principale",
+    "attributeCode": "main_material",
+    "status": "Required",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "main_material",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07051500",
+  "channelCategoryName": "Album de classement",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Transport et rangement > Album de classement",
+  "channelOriginCategoryName": "Album pour carte à collectionner",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16010000",
+  "channelCategoryName": "Animal - Robot - Objet interactif",
+  "channelFullCategoryPath": "High-tech > Animal - Robot - Objet interactif",
+  "channelOriginCategoryName": "Animal interactif virtuel",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12080000",
+  "channelCategoryName": "Jeu de cirque",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de cirque",
+  "channelOriginCategoryName": "Anneau - Foulard",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C06000000",
+  "channelCategoryName": "Support physique Jeu vidéo - Logiciel",
+  "channelFullCategoryPath": "Support physique Jeu vidéo - Logiciel",
+  "channelOriginCategoryName": "Antivirus physique",
+  "attributes": [
+   {
+    "channelAttributeId": "fe271382-3602-42bb-a430-bc7267235bef",
+    "attributeName": "Conseils d'utilisation",
+    "attributeCode": "usage_tips",
+    "status": "Optional",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16050100",
+  "channelCategoryName": "Appareil photo - vidéo",
+  "channelFullCategoryPath": "High-tech > Image - Vidéo > Appareil photo - vidéo",
+  "channelOriginCategoryName": "Appareil photo Argentique",
+  "attributes": [
+   {
+    "channelAttributeId": "dece5632-9465-4b75-9fde-7302823d7474",
+    "attributeName": "Alimentation fournie",
+    "attributeCode": "is_power_supplied",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_power_supplied",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16050105",
+  "channelCategoryName": "Appareil photo numérique",
+  "channelFullCategoryPath": "High-tech > Image - Vidéo > Appareil photo - vidéo > Appareil photo numérique",
+  "channelOriginCategoryName": "Appareil photo numérique",
+  "attributes": [
+   {
+    "channelAttributeId": "f1828fa2-1c30-487a-b92f-03a9239d0003",
+    "attributeName": "Type d'appareil photo numérique",
+    "attributeCode": "type_digital_camera",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "type_digital_camera",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160500",
+  "channelCategoryName": "Jeu de tir",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif > Jeu de tir",
+  "channelOriginCategoryName": "Arc à fléchette",
+  "attributes": [
+   {
+    "channelAttributeId": "9ac1ea5d-c707-4d2e-ac11-180993be7c7d",
+    "attributeName": "Thématique",
+    "attributeCode": "event_thematic",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "event_thematic",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Ardoise magique",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17080900",
+  "channelCategoryName": "Set d'ustensiles de formage",
+  "channelFullCategoryPath": "Machine et outil manuel > Ustensile de formage > Set d'ustensiles de formage",
+  "channelOriginCategoryName": "Autres outils à pâtisserie",
+  "attributes": [
+   {
+    "channelAttributeId": "23dbb8a0-5ef6-4a2b-9d5b-b3a8a67fb3e7",
+    "attributeName": "Loisir créatif",
+    "attributeCode": "use_for_creative_hobby",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "use_for_creative_hobby",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12200000",
+  "channelCategoryName": "Monde miniature",
+  "channelFullCategoryPath": "Jeu et jouet > Monde miniature",
+  "channelOriginCategoryName": "Avion et hélicoptère miniature",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12060000",
+  "channelCategoryName": "Jeu de café",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de café",
+  "channelOriginCategoryName": "Baby-foot",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C10050303",
+  "channelCategoryName": "Bague de déguisement",
+  "channelFullCategoryPath": "Accessoire de la personne > Accessoire des mains et bras > Bague > Bague de déguisement",
+  "channelOriginCategoryName": "Bague de déguisement",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12020000",
+  "channelCategoryName": "Balle - Boule - Bille",
+  "channelFullCategoryPath": "Jeu et jouet > Balle - Boule - Bille",
+  "channelOriginCategoryName": "Ballon et balle",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12020000",
+  "channelCategoryName": "Balle - Boule - Bille",
+  "channelFullCategoryPath": "Jeu et jouet > Balle - Boule - Bille",
+  "channelOriginCategoryName": "Ballon sauteur",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12200000",
+  "channelCategoryName": "Monde miniature",
+  "channelFullCategoryPath": "Jeu et jouet > Monde miniature",
+  "channelOriginCategoryName": "Bateau et sous marin miniature",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03020101",
+  "channelCategoryName": "Batterie complète",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à percussion > Batterie acoustique > Batterie complète",
+  "channelOriginCategoryName": "Batterie complète",
+  "attributes": [
+   {
+    "channelAttributeId": "be7e33f8-7527-470d-aba5-d63e61708ca3",
+    "attributeName": "Type de public",
+    "attributeCode": "audience",
+    "status": "Required",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "audience",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C13000000",
+  "channelCategoryName": "Mobilier",
+  "channelFullCategoryPath": "Mobilier",
+  "channelOriginCategoryName": "Bibliothèque",
+  "attributes": [
+   {
+    "channelAttributeId": "8f2cae4a-6210-419a-882c-1e2c266d9616",
+    "attributeName": "Compatibilité",
+    "attributeCode": "compatibility_instrument_acc",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "compatibility_instrument_acc",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Bilboquet",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12060000",
+  "channelCategoryName": "Jeu de café",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de café",
+  "channelOriginCategoryName": "Billard - Snooker",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12020000",
+  "channelCategoryName": "Balle - Boule - Bille",
+  "channelFullCategoryPath": "Jeu et jouet > Balle - Boule - Bille",
+  "channelOriginCategoryName": "Bille - Calot",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19020200",
+  "channelCategoryName": "Bloc de feuille",
+  "channelFullCategoryPath": "Papier et dérivé > Cahier - Album - Bloc > Bloc de feuille",
+  "channelOriginCategoryName": "Bloc-notes - Bloc de bureau",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Boîte à forme - Forme à trier",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Boîte à musique - Boîte à bruit",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040201",
+  "channelCategoryName": "Borne d'arcade grand format",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console > Console > Borne d'arcade grand format",
+  "channelOriginCategoryName": "Borne d'arcade grand format",
+  "attributes": [
+   {
+    "channelAttributeId": "5cf28e03-2ec3-44ab-8bcf-dc137be15105",
+    "attributeName": "Plateforme",
+    "attributeCode": "platform_gaming",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "platform_gaming",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Boulier",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Bricolage - Établi - Outil",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17060100",
+  "channelCategoryName": "Brosse d'entretien",
+  "channelFullCategoryPath": "Machine et outil manuel > Ustensile d'entretien > Brosse d'entretien",
+  "channelOriginCategoryName": "Brosse de nettoyage tableau",
+  "attributes": [
+   {
+    "channelAttributeId": "e888088f-0885-4dc1-a94a-9ec13d62f74b",
+    "attributeName": "Type de nettoyant",
+    "attributeCode": "type_cleaner",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "type_cleaner",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C13030401",
+  "channelCategoryName": "Bureau",
+  "channelFullCategoryPath": "Mobilier > Meuble > Bureau > Bureau",
+  "channelOriginCategoryName": "Bureau",
+  "attributes": [
+   {
+    "channelAttributeId": "dece5632-9465-4b75-9fde-7302823d7474",
+    "attributeName": "Alimentation fournie",
+    "attributeCode": "is_power_supplied",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_power_supplied",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C15000000",
+  "channelCategoryName": "Décoration - Art de la table - Textile",
+  "channelFullCategoryPath": "Décoration - Art de la table - Textile",
+  "channelOriginCategoryName": "Cadre en kit",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19020300",
+  "channelCategoryName": "Cahier",
+  "channelFullCategoryPath": "Papier et dérivé > Cahier - Album - Bloc > Cahier",
+  "channelOriginCategoryName": "Cahier de dessin",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19020300",
+  "channelCategoryName": "Cahier",
+  "channelFullCategoryPath": "Papier et dérivé > Cahier - Album - Bloc > Cahier",
+  "channelOriginCategoryName": "Cahier scolaire",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19010200",
+  "channelCategoryName": "Calendrier",
+  "channelFullCategoryPath": "Papier et dérivé > Agenda - Calendrier - Registre > Calendrier",
+  "channelOriginCategoryName": "Calendrier de bureau",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Required",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20040104",
+  "channelCategoryName": "Calendrier de l'avent jouet",
+  "channelFullCategoryPath": "Produit consommable > Calendrier de l'avent > Calendrier de l'avent prêt à l'emploi > Calendrier de l'avent jouet",
+  "channelOriginCategoryName": "Calendrier de l'avent jouet",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Camion à pédale",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19020400",
+  "channelCategoryName": "Carnet",
+  "channelFullCategoryPath": "Papier et dérivé > Cahier - Album - Bloc > Carnet",
+  "channelOriginCategoryName": "Carnet de croquis",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19020400",
+  "channelCategoryName": "Carnet",
+  "channelFullCategoryPath": "Papier et dérivé > Cahier - Album - Bloc > Carnet",
+  "channelOriginCategoryName": "Carnet de note",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07030101",
+  "channelCategoryName": "Cartable de maroquinerie",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Sac - Cartable - Valise > Cartable > Cartable de maroquinerie",
+  "channelOriginCategoryName": "Cartable de maroquinerie",
+  "attributes": [
+   {
+    "channelAttributeId": "f8c8f054-e999-440c-92aa-d764313d0556",
+    "attributeName": "Compatibilité de la taille de l'écran",
+    "attributeCode": "screen_size_compatibility",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "screen_size_compatibility",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12070000",
+  "channelCategoryName": "Jeu de carte",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de carte",
+  "channelOriginCategoryName": "Carte à collectionner",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07050601",
+  "channelCategoryName": "Carton à dessin",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Transport et rangement > Carton à dessin > Carton à dessin",
+  "channelOriginCategoryName": "Carton à dessin",
+  "attributes": [
+   {
+    "channelAttributeId": "c0f530dc-3009-424f-8cf4-27980ba22c9e",
+    "attributeName": "Technique associée",
+    "attributeCode": "associated_technique",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "associated_technique",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16150300",
+  "channelCategoryName": "Casque",
+  "channelFullCategoryPath": "High-tech > Son - DJ > Casque",
+  "channelOriginCategoryName": "Casque arceau filaire",
+  "attributes": [
+   {
+    "channelAttributeId": "9943a453-2407-41fa-87b4-4761ec6a02bd",
+    "attributeName": "Consoles compatibles",
+    "attributeCode": "game_consoles_compatibility",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "game_consoles_compatibility",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16150308",
+  "channelCategoryName": "Casque audio enfant",
+  "channelFullCategoryPath": "High-tech > Son - DJ > Casque > Casque audio enfant",
+  "channelOriginCategoryName": "Casque audio enfant",
+  "attributes": [
+   {
+    "channelAttributeId": "be7e33f8-7527-470d-aba5-d63e61708ca3",
+    "attributeName": "Type de public",
+    "attributeCode": "audience",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "audience",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Cerf-volant",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C10000000",
+  "channelCategoryName": "Accessoire de la personne",
+  "channelFullCategoryPath": "Accessoire de la personne",
+  "channelOriginCategoryName": "Chapeau de fête",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Optional",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12090000",
+  "channelCategoryName": "Jeu de construction",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de construction",
+  "channelOriginCategoryName": "Circuit à bille",
+  "attributes": [
+   {
+    "channelAttributeId": "fe271382-3602-42bb-a430-bc7267235bef",
+    "attributeName": "Conseils d'utilisation",
+    "attributeCode": "usage_tips",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12200000",
+  "channelCategoryName": "Monde miniature",
+  "channelFullCategoryPath": "Jeu et jouet > Monde miniature",
+  "channelOriginCategoryName": "Circuit miniature",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17010103",
+  "channelCategoryName": "Ciseaux de couture",
+  "channelFullCategoryPath": "Machine et outil manuel > Découpe manuelle > Ciseaux - Gouge > Ciseaux de couture",
+  "channelOriginCategoryName": "Ciseaux de couture",
+  "attributes": [
+   {
+    "channelAttributeId": "1123af13-3f84-41ca-b8f9-e38bdc75afbb",
+    "attributeName": "Matériau coupé",
+    "attributeCode": "cut_material",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "cut_material",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07051601",
+  "channelCategoryName": "Classeur",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Transport et rangement > Classeur - Trieur - Dossier > Classeur",
+  "channelOriginCategoryName": "Classeur",
+  "attributes": [
+   {
+    "channelAttributeId": "a94bad6f-42b6-4c29-9860-2730080c053d",
+    "attributeName": "Largeur du dos",
+    "attributeCode": "back_width_archive",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "back_width_archive",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03040202",
+  "channelCategoryName": "Clavier arrangeur",
+  "channelFullCategoryPath": "Instrument de musique > Piano - Clavier - Synthétiseur > Clavier > Clavier arrangeur",
+  "channelOriginCategoryName": "Clavier arrangeur",
+  "attributes": [
+   {
+    "channelAttributeId": "db4fcf4f-97ac-44db-8d58-09e27dab5d23",
+    "attributeName": "Nombre de touches",
+    "attributeCode": "instrument_number_keys",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "instrument_number_keys",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Clé d'éveil",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Coiffeur - Esthéticienne - Barbier",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20010100",
+  "channelCategoryName": "Colle",
+  "channelFullCategoryPath": "Produit consommable > Attache et fixation chimique > Colle",
+  "channelOriginCategoryName": "Colle pour puzzle",
+  "attributes": [
+   {
+    "channelAttributeId": "6fad23c2-04b2-4752-8965-641a87169846",
+    "attributeName": "Poids du matériau",
+    "attributeCode": "material_weight_envelope",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "material_weight_envelope",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Commerçant - Marchande",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040231",
+  "channelCategoryName": "Console éducative",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console > Console > Console éducative",
+  "channelOriginCategoryName": "Console éducative",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040200",
+  "channelCategoryName": "Console",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console > Console",
+  "channelOriginCategoryName": "Console Nintendo Switch",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040200",
+  "channelCategoryName": "Console",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console > Console",
+  "channelOriginCategoryName": "Console PlayStation 3",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040200",
+  "channelCategoryName": "Console",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console > Console",
+  "channelOriginCategoryName": "Console rétrogaming - Mini borne d'arcade",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12090300",
+  "channelCategoryName": "Construction brique",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de construction > Construction brique",
+  "channelOriginCategoryName": "Construction d'objet",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160600",
+  "channelCategoryName": "Jeu à sauter",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif > Jeu à sauter",
+  "channelOriginCategoryName": "Corde à sauter",
+  "attributes": [
+   {
+    "channelAttributeId": "9ac1ea5d-c707-4d2e-ac11-180993be7c7d",
+    "attributeName": "Thématique",
+    "attributeCode": "event_thematic",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "event_thematic",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20101600",
+  "channelCategoryName": "Pastel",
+  "channelFullCategoryPath": "Produit consommable > Fourniture de dessin - écriture - impression > Pastel",
+  "channelOriginCategoryName": "Craie aquarellable",
+  "attributes": [
+   {
+    "channelAttributeId": "e9088e2f-f524-4e9e-91c4-c1110a0e2e8c",
+    "attributeName": "Catégorie de couleur d'écriture",
+    "attributeCode": "writing_color_category",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "writing_color_category",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03020000",
+  "channelCategoryName": "Instrument à percussion",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à percussion",
+  "channelOriginCategoryName": "Crécelle",
+  "attributes": [
+   {
+    "channelAttributeId": "b4fbdfb1-7786-4ed4-9c05-3f6f8cbe9e9e",
+    "attributeName": "Caractéristiques complémentaires",
+    "attributeCode": "additional_characteristics",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "additional_characteristics",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Cube d'éveil",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17010402",
+  "channelCategoryName": "Cutter de bureau",
+  "channelFullCategoryPath": "Machine et outil manuel > Découpe manuelle > Cutter > Cutter de bureau",
+  "channelOriginCategoryName": "Cutter de bureau",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Dé classique",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Dinette - Cuisine - Restaurant",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Docteur - Infirmière - Vétérinaire",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Draisienne",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16080200",
+  "channelCategoryName": "Drone connecté",
+  "channelFullCategoryPath": "High-tech > Objet connecté > Drone connecté",
+  "channelOriginCategoryName": "Drone connecté",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12080000",
+  "channelCategoryName": "Jeu de cirque",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de cirque",
+  "channelOriginCategoryName": "Échasse",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160600",
+  "channelCategoryName": "Jeu à sauter",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif > Jeu à sauter",
+  "channelOriginCategoryName": "Élastique à sauter",
+  "attributes": [
+   {
+    "channelAttributeId": "9ac1ea5d-c707-4d2e-ac11-180993be7c7d",
+    "attributeName": "Thématique",
+    "attributeCode": "event_thematic",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "event_thematic",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12200000",
+  "channelCategoryName": "Monde miniature",
+  "channelFullCategoryPath": "Jeu et jouet > Monde miniature",
+  "channelOriginCategoryName": "Engin terrestre miniature",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19040300",
+  "channelCategoryName": "Enveloppe - Pochette",
+  "channelFullCategoryPath": "Papier et dérivé > Papier > Enveloppe - Pochette",
+  "channelOriginCategoryName": "Enveloppe carte de visite",
+  "attributes": [
+   {
+    "channelAttributeId": "6fad23c2-04b2-4752-8965-641a87169846",
+    "attributeName": "Poids du matériau",
+    "attributeCode": "material_weight_envelope",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "material_weight_envelope",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C10050103",
+  "channelCategoryName": "Epée de déguisement",
+  "channelFullCategoryPath": "Accessoire de la personne > Accessoire des mains et bras > Arme de déguisement > Epée de déguisement",
+  "channelOriginCategoryName": "Epée de déguisement",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17220600",
+  "channelCategoryName": "Règle - Équerre - Rapporteur",
+  "channelFullCategoryPath": "Machine et outil manuel > Ustensile de traçage > Règle - Équerre - Rapporteur",
+  "channelOriginCategoryName": "Équerre technique",
+  "attributes": [
+   {
+    "channelAttributeId": "97bbb440-0e25-4eab-bf92-784a40e67f04",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "features_art_supply",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_art_supply",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12030000",
+  "channelCategoryName": "Farce et attrape",
+  "channelFullCategoryPath": "Jeu et jouet > Farce et attrape",
+  "channelOriginCategoryName": "Farce et attrape non alimentaire",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Optional",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040300",
+  "channelCategoryName": "Manette et joystick",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console > Manette et joystick",
+  "channelOriginCategoryName": "Figurine de jeu - Amiboo",
+  "attributes": [
+   {
+    "channelAttributeId": "5cf28e03-2ec3-44ab-8bcf-dc137be15105",
+    "attributeName": "Plateforme",
+    "attributeCode": "platform_gaming",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "platform_gaming",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12040000",
+  "channelCategoryName": "Figurine",
+  "channelFullCategoryPath": "Jeu et jouet > Figurine",
+  "channelOriginCategoryName": "Figurine objet et accessoire",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Optional",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12040000",
+  "channelCategoryName": "Figurine",
+  "channelFullCategoryPath": "Jeu et jouet > Figurine",
+  "channelOriginCategoryName": "Figurine personnage",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Optional",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16050500",
+  "channelCategoryName": "Film - Pellicule pour appareil photo",
+  "channelFullCategoryPath": "High-tech > Image - Vidéo > Film - Pellicule pour appareil photo",
+  "channelOriginCategoryName": "Film instantané",
+  "attributes": [
+   {
+    "channelAttributeId": "9caff93b-4243-4e98-8a7c-70b4cbba6301",
+    "attributeName": "Accessoire photo",
+    "attributeCode": "type_photo_accessory",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "type_photo_accessory",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12060000",
+  "channelCategoryName": "Jeu de café",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de café",
+  "channelOriginCategoryName": "Flipper",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03030306",
+  "channelCategoryName": "Flûte à bec - Kena - Quena",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à vent et bois > Vent et bois > Flûte à bec - Kena - Quena",
+  "channelOriginCategoryName": "Flûte à bec - Kena - Quena",
+  "attributes": [
+   {
+    "channelAttributeId": "be7e33f8-7527-470d-aba5-d63e61708ca3",
+    "attributeName": "Type de public",
+    "attributeCode": "audience",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "audience",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03030304",
+  "channelCategoryName": "Flûte de pan - Siku - Zampona",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à vent et bois > Vent et bois > Flûte de pan - Siku - Zampona",
+  "channelOriginCategoryName": "Flûte de pan - Siku - Zampona",
+  "attributes": [
+   {
+    "channelAttributeId": "be7e33f8-7527-470d-aba5-d63e61708ca3",
+    "attributeName": "Type de public",
+    "attributeCode": "audience",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "audience",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17010705",
+  "channelCategoryName": "Gabarit de découpe pour machine",
+  "channelFullCategoryPath": "Machine et outil manuel > Découpe manuelle > Gabarit de découpe - Emporte-pièce > Gabarit de découpe pour machine",
+  "channelOriginCategoryName": "Gabarit de découpe pour machine",
+  "attributes": [
+   {
+    "channelAttributeId": "23dbb8a0-5ef6-4a2b-9d5b-b3a8a67fb3e7",
+    "attributeName": "Loisir créatif",
+    "attributeCode": "use_for_creative_hobby",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "use_for_creative_hobby",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C10050904",
+  "channelCategoryName": "Gant de déguisement et accessoire de main et bras",
+  "channelFullCategoryPath": "Accessoire de la personne > Accessoire des mains et bras > Gant > Gant de déguisement et accessoire de main et bras",
+  "channelOriginCategoryName": "Gant de déguisement et accessoire de main et bras",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12200000",
+  "channelCategoryName": "Monde miniature",
+  "channelFullCategoryPath": "Jeu et jouet > Monde miniature",
+  "channelOriginCategoryName": "Garage miniature - établis",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12170000",
+  "channelCategoryName": "Jeu éducatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu éducatif",
+  "channelOriginCategoryName": "Globe terrestre - Mappemonde",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20101200",
+  "channelCategoryName": "Gomme",
+  "channelFullCategoryPath": "Produit consommable > Fourniture de dessin - écriture - impression > Gomme",
+  "channelOriginCategoryName": "Gomme tout usage",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20160000",
+  "channelCategoryName": "Petite fourniture",
+  "channelFullCategoryPath": "Produit consommable > Petite fourniture",
+  "channelOriginCategoryName": "Gommette",
+  "attributes": [
+   {
+    "channelAttributeId": "69ab5b9c-620e-41a9-ac38-522d081270a6",
+    "attributeName": "Matière principale",
+    "attributeCode": "main_material_haberdashery",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "main_material_haberdashery",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03010110",
+  "channelCategoryName": "Guitare classique",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à cordes > Guitare et dérivé > Guitare classique",
+  "channelOriginCategoryName": "Guitare classique",
+  "attributes": [
+   {
+    "channelAttributeId": "d4f561dc-9340-4a74-85ec-e351300a479e",
+    "attributeName": "Gaucher",
+    "attributeCode": "is_left_handed_instrument",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_left_handed_instrument",
+    "defaultValue": "0"
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Handspinner - Fidget cube",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03030110",
+  "channelCategoryName": "Harmonica",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à vent et bois > Autre instrument à vent > Harmonica",
+  "channelOriginCategoryName": "Harmonica",
+  "attributes": [
+   {
+    "channelAttributeId": "da5c53a5-e136-40d3-b8b5-6b6099fd9103",
+    "attributeName": "Sous-type instrument à vent",
+    "attributeCode": "subtype_instrument_wind",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "subtype_instrument_wind",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07040201",
+  "channelCategoryName": "Harnais pour appareil photo",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Sangle de transport > Harnais > Harnais pour appareil photo",
+  "channelOriginCategoryName": "Harnais pour appareil photo",
+  "attributes": [
+   {
+    "channelAttributeId": "9caff93b-4243-4e98-8a7c-70b4cbba6301",
+    "attributeName": "Accessoire photo",
+    "attributeCode": "type_photo_accessory",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "type_photo_accessory",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Imitation instrument musique",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jardinage - Brouette",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Jeton à jouer - Malette de poker",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jeu à bulle de savon",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Jeu à marteler - Tap-tap",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Jeu d'adresse extérieur",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12140000",
+  "channelCategoryName": "Jeu de société",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de société",
+  "channelOriginCategoryName": "Jeu d'ambiance",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12070000",
+  "channelCategoryName": "Jeu de carte",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de carte",
+  "channelOriginCategoryName": "Jeu de carte classique",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12140000",
+  "channelCategoryName": "Jeu de société",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de société",
+  "channelOriginCategoryName": "Jeu de connaissance et culture générale",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12140000",
+  "channelCategoryName": "Jeu de société",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de société",
+  "channelOriginCategoryName": "Jeu de domino - Mikado",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12110000",
+  "channelCategoryName": "Jeu de lancer",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de lancer",
+  "channelOriginCategoryName": "Jeu de fléchette",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12140000",
+  "channelCategoryName": "Jeu de société",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de société",
+  "channelOriginCategoryName": "Jeu de magie",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12140000",
+  "channelCategoryName": "Jeu de société",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de société",
+  "channelOriginCategoryName": "Jeu de mémoire - Memory",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12110000",
+  "channelCategoryName": "Jeu de lancer",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de lancer",
+  "channelOriginCategoryName": "Jeu de palet - Croquet",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12141001",
+  "channelCategoryName": "Jeu de plateau",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de société > Jeu de plateau > Jeu de plateau",
+  "channelOriginCategoryName": "Jeu de plateau",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12110000",
+  "channelCategoryName": "Jeu de lancer",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de lancer",
+  "channelOriginCategoryName": "Jeu de quille - Jeu de boule - Jeu de palet",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jeu sur l'anatomie",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jeu sur l'astronomie",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12170000",
+  "channelCategoryName": "Jeu éducatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu éducatif",
+  "channelOriginCategoryName": "Jeu sur l'histoire - La géographie",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jeu sur la nature et les animaux",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jeu sur les sciences - Electricité - Chimie - Physique",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C06010200",
+  "channelCategoryName": "Jeu vidéo",
+  "channelFullCategoryPath": "Support physique Jeu vidéo - Logiciel > Support physique Jeu vidéo > Jeu vidéo",
+  "channelOriginCategoryName": "Jeu vidéo",
+  "attributes": [
+   {
+    "channelAttributeId": "c92b377c-a357-4f38-8140-193a00f9648c",
+    "attributeName": "Accessoires inclus",
+    "attributeCode": "keyboard_accessories_included",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "keyboard_accessories_included",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160400",
+  "channelCategoryName": "Jeu de raquette",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif > Jeu de raquette",
+  "channelOriginCategoryName": "Jokari",
+  "attributes": [
+   {
+    "channelAttributeId": "9ac1ea5d-c707-4d2e-ac11-180993be7c7d",
+    "attributeName": "Thématique",
+    "attributeCode": "event_thematic",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "event_thematic",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Jouet à bascule",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Jouet à pousser - Jouet à tirer",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jouet appareil photo d'éveil",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jouet camescope d'éveil",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Jouet réveil éveil",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19020501",
+  "channelCategoryName": "Journal intime",
+  "channelFullCategoryPath": "Papier et dérivé > Cahier - Album - Bloc > Livre et journal > Journal intime",
+  "channelOriginCategoryName": "Journal intime",
+  "attributes": [
+   {
+    "channelAttributeId": "8ca0500c-6e3a-4f2c-9615-985b4b4f6bc5",
+    "attributeName": "Format papier",
+    "attributeCode": "format_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "format_notebook",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C18130100",
+  "channelCategoryName": "Jumelle - Télescope",
+  "channelFullCategoryPath": "Machine et outil électrique > Loupe et ustensile de grossissement électronique > Jumelle - Télescope",
+  "channelOriginCategoryName": "Jumelle",
+  "attributes": [
+   {
+    "channelAttributeId": "49b84567-8090-4372-8319-d14ed5cce15c",
+    "attributeName": "Type d'alimentation",
+    "attributeCode": "power_supply_type",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "power_supply_type",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C08000000",
+  "channelCategoryName": "Produit alimentaire non frais",
+  "channelFullCategoryPath": "Produit alimentaire non frais",
+  "channelOriginCategoryName": "Kit cuisine moléculaire",
+  "attributes": [
+   {
+    "channelAttributeId": "ccccc34d-5da7-4984-aa65-f1ec97a75b63",
+    "attributeName": "Image 2",
+    "attributeCode": "image_2",
+    "status": "Recommended",
+    "typeValue": "MEDIA",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20101301",
+  "channelCategoryName": "Kit d'écriture",
+  "channelFullCategoryPath": "Produit consommable > Fourniture de dessin - écriture - impression > Kit d'écriture > Kit d'écriture",
+  "channelOriginCategoryName": "Kit d'écriture",
+  "attributes": [
+   {
+    "channelAttributeId": "0661b686-2706-4873-ad24-6082a0109c50",
+    "attributeName": "Type d'embout",
+    "attributeCode": "type_pen_tip",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "type_pen_tip",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20160000",
+  "channelCategoryName": "Petite fourniture",
+  "channelFullCategoryPath": "Produit consommable > Petite fourniture",
+  "channelOriginCategoryName": "Kit mosaïque",
+  "attributes": [
+   {
+    "channelAttributeId": "69ab5b9c-620e-41a9-ac38-522d081270a6",
+    "attributeName": "Matière principale",
+    "attributeCode": "main_material_haberdashery",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "main_material_haberdashery",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20000000",
+  "channelCategoryName": "Produit consommable",
+  "channelFullCategoryPath": "Produit consommable",
+  "channelOriginCategoryName": "Kit pour bougie",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Optional",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C11090000",
+  "channelCategoryName": "Savon - Lessive - Détachant",
+  "channelFullCategoryPath": "Cosmétique - Produit d'entretien - Huile essentielle > Savon - Lessive - Détachant",
+  "channelOriginCategoryName": "Kit savon",
+  "attributes": [
+   {
+    "channelAttributeId": "be7e33f8-7527-470d-aba5-d63e61708ca3",
+    "attributeName": "Type de public",
+    "attributeCode": "audience",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "audience",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19030000",
+  "channelCategoryName": "Kit papeterie",
+  "channelFullCategoryPath": "Papier et dérivé > Kit papeterie",
+  "channelOriginCategoryName": "Kit scrapbooking",
+  "attributes": [
+   {
+    "channelAttributeId": "97bbb440-0e25-4eab-bf92-784a40e67f04",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "features_art_supply",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_art_supply",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C14060400",
+  "channelCategoryName": "Lampe à porter",
+  "channelFullCategoryPath": "Connectique - Alimentation - Éclairage > Lampe > Lampe à porter",
+  "channelOriginCategoryName": "Lampe pointeur laser",
+  "attributes": [
+   {
+    "channelAttributeId": "97bbb440-0e25-4eab-bf92-784a40e67f04",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "features_art_supply",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_art_supply",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16100200",
+  "channelCategoryName": "Liseuse",
+  "channelFullCategoryPath": "High-tech > Ordinateur et tablette > Liseuse",
+  "channelOriginCategoryName": "Liseuse",
+  "attributes": [
+   {
+    "channelAttributeId": "91f4acec-524b-406b-b175-80d153ebfe64",
+    "attributeName": "Autonomie (max.)",
+    "attributeCode": "autonomy_tablet",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "autonomy_tablet",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Livre d'éveil",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16070203",
+  "channelCategoryName": "Livre électronique éducatif",
+  "channelFullCategoryPath": "High-tech > Livre - Carnet électronique > Livre électronique > Livre électronique éducatif",
+  "channelOriginCategoryName": "Livre électronique éducatif",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C09020202",
+  "channelCategoryName": "Livre physique",
+  "channelFullCategoryPath": "Support physique Livre – Magazine - Carte > Livre physique > Livre physique > Livre physique",
+  "channelOriginCategoryName": "Livre physique",
+  "attributes": [
+   {
+    "channelAttributeId": "84aa0e0a-bd5e-4b0d-983d-f12851f2bde0",
+    "attributeName": "[IDX] Date de commercialisation",
+    "attributeCode": "release_date",
+    "status": "Optional",
+    "typeValue": "DATE",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C06000000",
+  "channelCategoryName": "Support physique Jeu vidéo - Logiciel",
+  "channelFullCategoryPath": "Support physique Jeu vidéo - Logiciel",
+  "channelOriginCategoryName": "Logiciel bureautique et utilitaire physique",
+  "attributes": [
+   {
+    "channelAttributeId": "fe271382-3602-42bb-a430-bc7267235bef",
+    "attributeName": "Conseils d'utilisation",
+    "attributeCode": "usage_tips",
+    "status": "Optional",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C18130104",
+  "channelCategoryName": "Longue-vue éducative",
+  "channelFullCategoryPath": "Machine et outil électrique > Loupe et ustensile de grossissement électronique > Jumelle - Télescope > Longue-vue éducative",
+  "channelOriginCategoryName": "Longue-vue éducative",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12140000",
+  "channelCategoryName": "Jeu de société",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de société",
+  "channelOriginCategoryName": "Loto - Bingo",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17020105",
+  "channelCategoryName": "Loupe à main éducative",
+  "channelFullCategoryPath": "Machine et outil manuel > Loupe et ustensile de grossissement > Loupe > Loupe à main éducative",
+  "channelOriginCategoryName": "Loupe à main éducative",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C18000000",
+  "channelCategoryName": "Machine et outil électrique",
+  "channelFullCategoryPath": "Machine et outil électrique",
+  "channelOriginCategoryName": "Loupe électronique",
+  "attributes": [
+   {
+    "channelAttributeId": "dece5632-9465-4b75-9fde-7302823d7474",
+    "attributeName": "Alimentation fournie",
+    "attributeCode": "is_power_supplied",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_power_supplied",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07050100",
+  "channelCategoryName": "Boite alimentaire",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Transport et rangement > Boite alimentaire",
+  "channelOriginCategoryName": "Lunch-box - Bento",
+  "attributes": [
+   {
+    "channelAttributeId": "94960973-39ff-4c89-82b1-423f0627e49c",
+    "attributeName": "Compatible lave-vaisselle",
+    "attributeCode": "dishwasher_compatible",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "dishwasher_compatible",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C09000000",
+  "channelCategoryName": "Support physique Livre – Magazine - Carte",
+  "channelFullCategoryPath": "Support physique Livre – Magazine - Carte",
+  "channelOriginCategoryName": "Magazine",
+  "attributes": [
+   {
+    "channelAttributeId": "ccccc34d-5da7-4984-aa65-f1ec97a75b63",
+    "attributeName": "Image 2",
+    "attributeCode": "image_2",
+    "status": "Optional",
+    "typeValue": "MEDIA",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C13050000",
+  "channelCategoryName": "Structure de jeu extérieur",
+  "channelFullCategoryPath": "Mobilier > Structure de jeu extérieur",
+  "channelOriginCategoryName": "Maison de jeu extérieur",
+  "attributes": [
+   {
+    "channelAttributeId": "dece5632-9465-4b75-9fde-7302823d7474",
+    "attributeName": "Alimentation fournie",
+    "attributeCode": "is_power_supplied",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_power_supplied",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Maison de poupée et mobilier",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040306",
+  "channelCategoryName": "Manette",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console > Manette et joystick > Manette",
+  "channelOriginCategoryName": "Manette",
+  "attributes": [
+   {
+    "channelAttributeId": "5cf28e03-2ec3-44ab-8bcf-dc137be15105",
+    "attributeName": "Plateforme",
+    "attributeCode": "platform_gaming",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "platform_gaming",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12190100",
+  "channelCategoryName": "Maquette",
+  "channelFullCategoryPath": "Jeu et jouet > Modélisme > Maquette",
+  "channelOriginCategoryName": "Maquette avion - Vaisseau",
+  "attributes": [
+   {
+    "channelAttributeId": "f5d27271-c1be-423b-9af9-56df919b2d8a",
+    "attributeName": "Couleur précise",
+    "attributeCode": "color_exact",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12190100",
+  "channelCategoryName": "Maquette",
+  "channelFullCategoryPath": "Jeu et jouet > Modélisme > Maquette",
+  "channelOriginCategoryName": "Maquette camion - Engin de chantier",
+  "attributes": [
+   {
+    "channelAttributeId": "f5d27271-c1be-423b-9af9-56df919b2d8a",
+    "attributeName": "Couleur précise",
+    "attributeCode": "color_exact",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12190100",
+  "channelCategoryName": "Maquette",
+  "channelFullCategoryPath": "Jeu et jouet > Modélisme > Maquette",
+  "channelOriginCategoryName": "Maquette de décor - Terrain",
+  "attributes": [
+   {
+    "channelAttributeId": "f5d27271-c1be-423b-9af9-56df919b2d8a",
+    "attributeName": "Couleur précise",
+    "attributeCode": "color_exact",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C11030400",
+  "channelCategoryName": "Maquillage de déguisement",
+  "channelFullCategoryPath": "Cosmétique - Produit d'entretien - Huile essentielle > Cosmétique prêt à l'emploi > Maquillage de déguisement",
+  "channelOriginCategoryName": "Maquillage de déguisement",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Marionnette - Théâtre",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C10030803",
+  "channelCategoryName": "Masque de déguisement",
+  "channelFullCategoryPath": "Accessoire de la personne > Accessoire de la tête > Masque et écran > Masque de déguisement",
+  "channelOriginCategoryName": "Masque de déguisement",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C09000000",
+  "channelCategoryName": "Support physique Livre – Magazine - Carte",
+  "channelFullCategoryPath": "Support physique Livre – Magazine - Carte",
+  "channelOriginCategoryName": "Méthode",
+  "attributes": [
+   {
+    "channelAttributeId": "ccccc34d-5da7-4984-aa65-f1ec97a75b63",
+    "attributeName": "Image 2",
+    "attributeCode": "image_2",
+    "status": "Optional",
+    "typeValue": "MEDIA",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12200000",
+  "channelCategoryName": "Monde miniature",
+  "channelFullCategoryPath": "Jeu et jouet > Monde miniature",
+  "channelOriginCategoryName": "Meuble miniature",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16151100",
+  "channelCategoryName": "Microphone",
+  "channelFullCategoryPath": "High-tech > Son - DJ > Microphone",
+  "channelOriginCategoryName": "Micro - Karaoké",
+  "attributes": [
+   {
+    "channelAttributeId": "9943a453-2407-41fa-87b4-4761ec6a02bd",
+    "attributeName": "Consoles compatibles",
+    "attributeCode": "game_consoles_compatibility",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "game_consoles_compatibility",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C18130302",
+  "channelCategoryName": "Microscope éducatif",
+  "channelFullCategoryPath": "Machine et outil électrique > Loupe et ustensile de grossissement électronique > Microscope > Microscope éducatif",
+  "channelOriginCategoryName": "Microscope éducatif",
+  "attributes": [
+   {
+    "channelAttributeId": "da7a99e8-0e8b-432f-8c95-3ca59c91f4a5",
+    "attributeName": "Niveau scolaire",
+    "attributeCode": "school_level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "school_level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Moto - Scooter jouet",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17080400",
+  "channelCategoryName": "Moule",
+  "channelFullCategoryPath": "Machine et outil manuel > Ustensile de formage > Moule",
+  "channelOriginCategoryName": "Moule découpoir",
+  "attributes": [
+   {
+    "channelAttributeId": "2e2c5130-6db0-47f4-a772-296b644fc12c",
+    "attributeName": "Contenance",
+    "attributeCode": "capacity_volume",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "capacity_volume",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Moulin à vent",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20021000",
+  "channelCategoryName": "Fermeture - Fermoir",
+  "channelFullCategoryPath": "Produit consommable > Attache et fixation mécanique > Fermeture - Fermoir",
+  "channelOriginCategoryName": "Mousqueton",
+  "attributes": [
+   {
+    "channelAttributeId": "b566542c-6c66-4059-8a6d-2364702b7f9f",
+    "attributeName": "Pour qui",
+    "attributeCode": "user_haberdashery",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "user_haberdashery",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16100306",
+  "channelCategoryName": "Ordinateur éducatif",
+  "channelFullCategoryPath": "High-tech > Ordinateur et tablette > Ordinateur > Ordinateur éducatif",
+  "channelOriginCategoryName": "Ordinateur éducatif",
+  "attributes": [
+   {
+    "channelAttributeId": "be7e33f8-7527-470d-aba5-d63e61708ca3",
+    "attributeName": "Type de public",
+    "attributeCode": "audience",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "audience",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20160000",
+  "channelCategoryName": "Petite fourniture",
+  "channelFullCategoryPath": "Produit consommable > Petite fourniture",
+  "channelOriginCategoryName": "Paillette",
+  "attributes": [
+   {
+    "channelAttributeId": "69ab5b9c-620e-41a9-ac38-522d081270a6",
+    "attributeName": "Matière principale",
+    "attributeCode": "main_material_haberdashery",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "main_material_haberdashery",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C10070402",
+  "channelCategoryName": "Panoplie de déguisement",
+  "channelFullCategoryPath": "Accessoire de la personne > Vêtement > Ensemble de vêtements > Panoplie de déguisement",
+  "channelOriginCategoryName": "Panoplie de déguisement",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19041600",
+  "channelCategoryName": "Papier à gratter",
+  "channelFullCategoryPath": "Papier et dérivé > Papier > Papier à gratter",
+  "channelOriginCategoryName": "Papier à gratter",
+  "attributes": [
+   {
+    "channelAttributeId": "97bbb440-0e25-4eab-bf92-784a40e67f04",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "features_art_supply",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_art_supply",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19040900",
+  "channelCategoryName": "Papier dessin - peinture",
+  "channelFullCategoryPath": "Papier et dérivé > Papier > Papier dessin - peinture",
+  "channelOriginCategoryName": "Papier aquarelle",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19040600",
+  "channelCategoryName": "Papier cartonné",
+  "channelFullCategoryPath": "Papier et dérivé > Papier > Papier cartonné",
+  "channelOriginCategoryName": "Papier buvard",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19041000",
+  "channelCategoryName": "Papier duplication",
+  "channelFullCategoryPath": "Papier et dérivé > Papier > Papier duplication",
+  "channelOriginCategoryName": "Papier calque",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19040700",
+  "channelCategoryName": "Papier créatif",
+  "channelFullCategoryPath": "Papier et dérivé > Papier > Papier créatif",
+  "channelOriginCategoryName": "Papier de soie",
+  "attributes": [
+   {
+    "channelAttributeId": "97bbb440-0e25-4eab-bf92-784a40e67f04",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "features_art_supply",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_art_supply",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19041400",
+  "channelCategoryName": "Papier template",
+  "channelFullCategoryPath": "Papier et dérivé > Papier > Papier template",
+  "channelOriginCategoryName": "Papier listing et imprimé",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19040800",
+  "channelCategoryName": "Papier de précision",
+  "channelFullCategoryPath": "Papier et dérivé > Papier > Papier de précision",
+  "channelOriginCategoryName": "Papier millimétré",
+  "attributes": [
+   {
+    "channelAttributeId": "6ec229ea-47fb-4d72-a04c-6f2cad694dbc",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "characteristics_notebook",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "characteristics_notebook",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C09020402",
+  "channelCategoryName": "Partition musicale",
+  "channelFullCategoryPath": "Support physique Livre – Magazine - Carte > Livre physique > Méthode et Partition musicale > Partition musicale",
+  "channelOriginCategoryName": "Partition musicale",
+  "attributes": [
+   {
+    "channelAttributeId": "84aa0e0a-bd5e-4b0d-983d-f12851f2bde0",
+    "attributeName": "[IDX] Date de commercialisation",
+    "attributeCode": "release_date",
+    "status": "Optional",
+    "typeValue": "DATE",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20000000",
+  "channelCategoryName": "Produit consommable",
+  "channelFullCategoryPath": "Produit consommable",
+  "channelOriginCategoryName": "Pâte à modeler",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Optional",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16100000",
+  "channelCategoryName": "Ordinateur et tablette",
+  "channelFullCategoryPath": "High-tech > Ordinateur et tablette",
+  "channelOriginCategoryName": "PC Gamer",
+  "attributes": [
+   {
+    "channelAttributeId": "dece5632-9465-4b75-9fde-7302823d7474",
+    "attributeName": "Alimentation fournie",
+    "attributeCode": "is_power_supplied",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_power_supplied",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Peluche",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120100",
+  "channelCategoryName": "Perle de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif > Perle de jeu",
+  "channelOriginCategoryName": "Perle à repasser",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03040000",
+  "channelCategoryName": "Piano - Clavier - Synthétiseur",
+  "channelFullCategoryPath": "Instrument de musique > Piano - Clavier - Synthétiseur",
+  "channelOriginCategoryName": "Piano acoustique",
+  "attributes": [
+   {
+    "channelAttributeId": "c1db65ef-3e67-4fb0-a496-0d692ecff308",
+    "attributeName": "Amplification",
+    "attributeCode": "amplification",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "amplification",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16090200",
+  "channelCategoryName": "Véhicule - Drone télécommandé",
+  "channelFullCategoryPath": "High-tech > Objet radiocommandé > Véhicule - Drone télécommandé",
+  "channelOriginCategoryName": "Pièces détachées et accessoires pour véhicule/drone radiocommandé",
+  "attributes": [
+   {
+    "channelAttributeId": "ccccc34d-5da7-4984-aa65-f1ec97a75b63",
+    "attributeName": "Image 2",
+    "attributeCode": "image_2",
+    "status": "Recommended",
+    "typeValue": "MEDIA",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12190100",
+  "channelCategoryName": "Maquette",
+  "channelFullCategoryPath": "Jeu et jouet > Modélisme > Maquette",
+  "channelOriginCategoryName": "Pièces détachées, outils et accessoires pour maquettes",
+  "attributes": [
+   {
+    "channelAttributeId": "f5d27271-c1be-423b-9af9-56df919b2d8a",
+    "attributeName": "Couleur précise",
+    "attributeCode": "color_exact",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Pion à jouer",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Piste de dé",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12080000",
+  "channelCategoryName": "Jeu de cirque",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de cirque",
+  "channelOriginCategoryName": "Planche d'équilibre - Rolla bolla",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20101800",
+  "channelCategoryName": "Plume et calame",
+  "channelFullCategoryPath": "Produit consommable > Fourniture de dessin - écriture - impression > Plume et calame",
+  "channelOriginCategoryName": "Plume de calligraphie",
+  "attributes": [
+   {
+    "channelAttributeId": "e9088e2f-f524-4e9e-91c4-c1110a0e2e8c",
+    "attributeName": "Catégorie de couleur d'écriture",
+    "attributeCode": "writing_color_category",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "writing_color_category",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20160000",
+  "channelCategoryName": "Petite fourniture",
+  "channelFullCategoryPath": "Produit consommable > Petite fourniture",
+  "channelOriginCategoryName": "Plume décorative",
+  "attributes": [
+   {
+    "channelAttributeId": "69ab5b9c-620e-41a9-ac38-522d081270a6",
+    "attributeName": "Matière principale",
+    "attributeCode": "main_material_haberdashery",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "main_material_haberdashery",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07030000",
+  "channelCategoryName": "Sac - Cartable - Valise",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Sac - Cartable - Valise",
+  "channelOriginCategoryName": "Pochette à main",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07020700",
+  "channelCategoryName": "Emballage cadeau",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Protection d'objet > Emballage cadeau",
+  "channelOriginCategoryName": "Pochette cadeau",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Pochette surprise",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Pog - Osselet",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C15080300",
+  "channelCategoryName": "Porte menu",
+  "channelFullCategoryPath": "Décoration - Art de la table - Textile > Ustensile de support et d'affichage > Porte menu",
+  "channelOriginCategoryName": "Porte menu",
+  "attributes": [
+   {
+    "channelAttributeId": "95fcf899-82ea-4f41-a243-f77806dbedd3",
+    "attributeName": "Type de décoration / art de la table",
+    "attributeCode": "type_decoration_tableware",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "type_decoration_tableware",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Porteur - Pousseur",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12220000",
+  "channelCategoryName": "Poupée et poupon",
+  "channelFullCategoryPath": "Jeu et jouet > Poupée et poupon",
+  "channelOriginCategoryName": "Poupon",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Poussette et landau",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C14050000",
+  "channelCategoryName": "Eclairage de scène - Ambiance",
+  "channelFullCategoryPath": "Connectique - Alimentation - Éclairage > Eclairage de scène - Ambiance",
+  "channelOriginCategoryName": "Projecteur stroboscope",
+  "attributes": [
+   {
+    "channelAttributeId": "28b20a72-abe7-4a1b-9904-e2c5b3ada20b",
+    "attributeName": "Accessoire éclairage",
+    "attributeCode": "type_lighting_equipment",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "type_lighting_equipment",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12230100",
+  "channelCategoryName": "Puzzle",
+  "channelFullCategoryPath": "Jeu et jouet > Puzzle > Puzzle",
+  "channelOriginCategoryName": "Puzzle à décorer",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Required",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Quad - Kart à pédale",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17220602",
+  "channelCategoryName": "Rapporteur scolaire",
+  "channelFullCategoryPath": "Machine et outil manuel > Ustensile de traçage > Règle - Équerre - Rapporteur > Rapporteur scolaire",
+  "channelOriginCategoryName": "Rapporteur scolaire",
+  "attributes": [
+   {
+    "channelAttributeId": "dbeac9e4-d5c3-489d-af50-813d431af4c2",
+    "attributeName": "Longueur d'échelle",
+    "attributeCode": "scale_length",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "scale_length",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12200000",
+  "channelCategoryName": "Monde miniature",
+  "channelFullCategoryPath": "Jeu et jouet > Monde miniature",
+  "channelOriginCategoryName": "Robot miniature",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C19000000",
+  "channelCategoryName": "Papier et dérivé",
+  "channelFullCategoryPath": "Papier et dérivé",
+  "channelOriginCategoryName": "Rouleau de papier pour tableau blanc",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07030000",
+  "channelCategoryName": "Sac - Cartable - Valise",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Sac - Cartable - Valise",
+  "channelOriginCategoryName": "Sac d'artiste",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07030000",
+  "channelCategoryName": "Sac - Cartable - Valise",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Sac - Cartable - Valise",
+  "channelOriginCategoryName": "Sac de transport pour multimédia",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07031001",
+  "channelCategoryName": "Sacoche de transport console de jeux",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Sac - Cartable - Valise > Sacoche > Sacoche de transport console de jeux",
+  "channelOriginCategoryName": "Sacoche de transport console de jeux",
+  "attributes": [
+   {
+    "channelAttributeId": "9943a453-2407-41fa-87b4-4761ec6a02bd",
+    "attributeName": "Consoles compatibles",
+    "attributeCode": "game_consoles_compatibility",
+    "status": "Required",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "game_consoles_compatibility",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03030309",
+  "channelCategoryName": "Saxophone",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à vent et bois > Vent et bois > Saxophone",
+  "channelOriginCategoryName": "Saxophone",
+  "attributes": [
+   {
+    "channelAttributeId": "da5c53a5-e136-40d3-b8b5-6b6099fd9103",
+    "attributeName": "Sous-type instrument à vent",
+    "attributeCode": "subtype_instrument_wind",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "subtype_instrument_wind",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20160000",
+  "channelCategoryName": "Petite fourniture",
+  "channelFullCategoryPath": "Produit consommable > Petite fourniture",
+  "channelOriginCategoryName": "Sequin",
+  "attributes": [
+   {
+    "channelAttributeId": "69ab5b9c-620e-41a9-ac38-522d081270a6",
+    "attributeName": "Matière principale",
+    "attributeCode": "main_material_haberdashery",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "main_material_haberdashery",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set d'activité de cuisine",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set d'activité de gravure",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set d'activité de peinture",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set d'origami",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17000000",
+  "channelCategoryName": "Machine et outil manuel",
+  "channelFullCategoryPath": "Machine et outil manuel",
+  "channelOriginCategoryName": "Set d'outil de mercerie",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17080900",
+  "channelCategoryName": "Set d'ustensiles de formage",
+  "channelFullCategoryPath": "Machine et outil manuel > Ustensile de formage > Set d'ustensiles de formage",
+  "channelOriginCategoryName": "Set d'outils de sculpture",
+  "attributes": [
+   {
+    "channelAttributeId": "23dbb8a0-5ef6-4a2b-9d5b-b3a8a67fb3e7",
+    "attributeName": "Loisir créatif",
+    "attributeCode": "use_for_creative_hobby",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "use_for_creative_hobby",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de coloriage - Dessin - Pochoir",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de couture - Tricot - Tissage",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de création de bijoux et perle",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120312",
+  "channelCategoryName": "Set de création de savon",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif > Set de jeu de loisir créatif > Set de création de savon",
+  "channelOriginCategoryName": "Set de création de savon",
+  "attributes": [
+   {
+    "channelAttributeId": "f5d27271-c1be-423b-9af9-56df919b2d8a",
+    "attributeName": "Couleur précise",
+    "attributeCode": "color_exact",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de création maquillage",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de création parfum",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de découpage - collage",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12140000",
+  "channelCategoryName": "Jeu de société",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de société",
+  "channelOriginCategoryName": "Set de jeu de société",
+  "attributes": [
+   {
+    "channelAttributeId": "4d4a6102-a455-4d74-b9c1-44d3e51f9cfa",
+    "attributeName": "Niveau d'utilisation",
+    "attributeCode": "level",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "level",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de mosaïque",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de moulage - modelage",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03020100",
+  "channelCategoryName": "Batterie acoustique",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à percussion > Batterie acoustique",
+  "channelOriginCategoryName": "Set de percussions",
+  "attributes": [
+   {
+    "channelAttributeId": "b4fbdfb1-7786-4ed4-9c05-3f6f8cbe9e9e",
+    "attributeName": "Caractéristiques complémentaires",
+    "attributeCode": "additional_characteristics",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "additional_characteristics",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de poterie",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de sable à modeler",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de scrapbooking",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20102100",
+  "channelCategoryName": "Stylo feutre",
+  "channelFullCategoryPath": "Produit consommable > Fourniture de dessin - écriture - impression > Stylo feutre",
+  "channelOriginCategoryName": "Set de stylo feutre et autre(s) produit(s)",
+  "attributes": [
+   {
+    "channelAttributeId": "e9088e2f-f524-4e9e-91c4-c1110a0e2e8c",
+    "attributeName": "Catégorie de couleur d'écriture",
+    "attributeCode": "writing_color_category",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "writing_color_category",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de tampon",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12120000",
+  "channelCategoryName": "Jeu de loisir créatif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de loisir créatif",
+  "channelOriginCategoryName": "Set de tatouage",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040233",
+  "channelCategoryName": "Simulateur de conduite",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console > Console > Simulateur de conduite",
+  "channelOriginCategoryName": "Simulateur de conduite",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Optional",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20162202",
+  "channelCategoryName": "Skin et sticker ordinateur",
+  "channelFullCategoryPath": "Produit consommable > Petite fourniture > Sticker > Skin et sticker ordinateur",
+  "channelOriginCategoryName": "Skin et sticker ordinateur",
+  "attributes": [
+   {
+    "channelAttributeId": "9f7ccceb-5308-4ab9-9cf5-f5315626635f",
+    "attributeName": "Compatibilité ordinateur portable",
+    "attributeCode": "laptop_compatibility",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "laptop_compatibility",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Soin de la maison - Nettoyage - Ménage",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20160000",
+  "channelCategoryName": "Petite fourniture",
+  "channelFullCategoryPath": "Produit consommable > Petite fourniture",
+  "channelOriginCategoryName": "Sticker d'embellissement - Autocollant",
+  "attributes": [
+   {
+    "channelAttributeId": "69ab5b9c-620e-41a9-ac38-522d081270a6",
+    "attributeName": "Matière principale",
+    "attributeCode": "main_material_haberdashery",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "main_material_haberdashery",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16040000",
+  "channelCategoryName": "Console et accessoire de console",
+  "channelFullCategoryPath": "High-tech > Console et accessoire de console",
+  "channelOriginCategoryName": "Support pour console",
+  "attributes": [
+   {
+    "channelAttributeId": "dece5632-9465-4b75-9fde-7302823d7474",
+    "attributeName": "Alimentation fournie",
+    "attributeCode": "is_power_supplied",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_power_supplied",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20102600",
+  "channelCategoryName": "Surligneur",
+  "channelFullCategoryPath": "Produit consommable > Fourniture de dessin - écriture - impression > Surligneur",
+  "channelOriginCategoryName": "Surligneur",
+  "attributes": [
+   {
+    "channelAttributeId": "e9088e2f-f524-4e9e-91c4-c1110a0e2e8c",
+    "attributeName": "Catégorie de couleur d'écriture",
+    "attributeCode": "writing_color_category",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "writing_color_category",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16120300",
+  "channelCategoryName": "Commutateur",
+  "channelFullCategoryPath": "High-tech > Périphérique informatique > Commutateur",
+  "channelOriginCategoryName": "Switch KVM",
+  "attributes": [
+   {
+    "channelAttributeId": "dece5632-9465-4b75-9fde-7302823d7474",
+    "attributeName": "Alimentation fournie",
+    "attributeCode": "is_power_supplied",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_power_supplied",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Table d'activité",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12060000",
+  "channelCategoryName": "Jeu de café",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu de café",
+  "channelOriginCategoryName": "Table de jeu",
+  "attributes": [
+   {
+    "channelAttributeId": "b84e4616-16b4-4ada-8531-64f0a197f9d6",
+    "attributeName": "Nombre de joueur(s) maximal",
+    "attributeCode": "max_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C13032309",
+  "channelCategoryName": "Tableau pour enfant",
+  "channelFullCategoryPath": "Mobilier > Meuble > Tableau > Tableau pour enfant",
+  "channelOriginCategoryName": "Tableau pour enfant",
+  "attributes": [
+   {
+    "channelAttributeId": "dece5632-9465-4b75-9fde-7302823d7474",
+    "attributeName": "Alimentation fournie",
+    "attributeCode": "is_power_supplied",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "is_power_supplied",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16100400",
+  "channelCategoryName": "Tablette",
+  "channelFullCategoryPath": "High-tech > Ordinateur et tablette > Tablette",
+  "channelOriginCategoryName": "Tablette éducative",
+  "attributes": [
+   {
+    "channelAttributeId": "91f4acec-524b-406b-b175-80d153ebfe64",
+    "attributeName": "Autonomie (max.)",
+    "attributeCode": "autonomy_tablet",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "autonomy_tablet",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17011800",
+  "channelCategoryName": "Taille crayon",
+  "channelFullCategoryPath": "Machine et outil manuel > Découpe manuelle > Taille crayon",
+  "channelOriginCategoryName": "Taille crayon",
+  "attributes": [
+   {
+    "channelAttributeId": "97bbb440-0e25-4eab-bf92-784a40e67f04",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "features_art_supply",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_art_supply",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16130502",
+  "channelCategoryName": "Talkie-walkie jouet",
+  "channelFullCategoryPath": "High-tech > Radiocommunication > Talkie-walkie > Talkie-walkie jouet",
+  "channelOriginCategoryName": "Talkie-walkie jouet",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03020900",
+  "channelCategoryName": "Percussion traditionnelle",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à percussion > Percussion traditionnelle",
+  "channelOriginCategoryName": "Tambour",
+  "attributes": [
+   {
+    "channelAttributeId": "aa890c83-a45a-45ce-b311-a599bcdf8bfd",
+    "attributeName": "Matériau de la coque",
+    "attributeCode": "hull_ply",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "hull_ply",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03020900",
+  "channelCategoryName": "Percussion traditionnelle",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à percussion > Percussion traditionnelle",
+  "channelOriginCategoryName": "Tambourin",
+  "attributes": [
+   {
+    "channelAttributeId": "aa890c83-a45a-45ce-b311-a599bcdf8bfd",
+    "attributeName": "Matériau de la coque",
+    "attributeCode": "hull_ply",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "hull_ply",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Tapis de jeu sur table",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16120102",
+  "channelCategoryName": "Tapis de souris",
+  "channelFullCategoryPath": "High-tech > Périphérique informatique > Accesoire de souris > Tapis de souris",
+  "channelOriginCategoryName": "Tapis de souris",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12011003",
+  "channelCategoryName": "Tapis pour puzzle",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu > Tapis de jeu > Tapis pour puzzle",
+  "channelOriginCategoryName": "Tapis pour puzzle",
+  "attributes": [
+   {
+    "channelAttributeId": "323b4655-f8ed-4f74-b622-ecf5a72cc84c",
+    "attributeName": "Thème du puzzle",
+    "attributeCode": "theme_puzzle",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "theme_puzzle",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16171103",
+  "channelCategoryName": "Téléphone éducatif",
+  "channelFullCategoryPath": "High-tech > Téléphonie et mobilité > Téléphone mobile > Téléphone éducatif",
+  "channelOriginCategoryName": "Téléphone éducatif",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C18130100",
+  "channelCategoryName": "Jumelle - Télescope",
+  "channelFullCategoryPath": "Machine et outil électrique > Loupe et ustensile de grossissement électronique > Jumelle - Télescope",
+  "channelOriginCategoryName": "Télescope",
+  "attributes": [
+   {
+    "channelAttributeId": "49b84567-8090-4372-8319-d14ed5cce15c",
+    "attributeName": "Type d'alimentation",
+    "attributeCode": "power_supply_type",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "power_supply_type",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12050000",
+  "channelCategoryName": "Jeu d'éveil",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu d'éveil",
+  "channelOriginCategoryName": "Tente et tunnel d'activité",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12220000",
+  "channelCategoryName": "Poupée et poupon",
+  "channelFullCategoryPath": "Jeu et jouet > Poupée et poupon",
+  "channelOriginCategoryName": "Tête à coiffer",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Toupie vendue seule",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C17220311",
+  "channelCategoryName": "Trace forme créative - Gabarit",
+  "channelFullCategoryPath": "Machine et outil manuel > Ustensile de traçage > Gabarit de traçage > Trace forme créative - Gabarit",
+  "channelOriginCategoryName": "Trace forme créative - Gabarit",
+  "attributes": [
+   {
+    "channelAttributeId": "97bbb440-0e25-4eab-bf92-784a40e67f04",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "features_art_supply",
+    "status": "Optional",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_art_supply",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Tracteur à pédale",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07060110",
+  "channelCategoryName": "Trousse à stylo",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Trousse et vanity > Trousse > Trousse à stylo",
+  "channelOriginCategoryName": "Trousse à stylo",
+  "attributes": [
+   {
+    "channelAttributeId": "3c6a6aa9-9da7-4f1e-93e5-e1d64fc941d4",
+    "attributeName": "Matière principale",
+    "attributeCode": "main_material",
+    "status": "Required",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "main_material",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C07060000",
+  "channelCategoryName": "Trousse et vanity",
+  "channelFullCategoryPath": "Sac - Protection - Rangement - Transport > Trousse et vanity",
+  "channelOriginCategoryName": "Trousse de rangement fourniture créative",
+  "attributes": [
+   {
+    "channelAttributeId": "97f369ff-9b6a-4b0d-935a-36784741d190",
+    "attributeName": "Couleur",
+    "attributeCode": "color_affiliation",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "color_affiliation",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03020900",
+  "channelCategoryName": "Percussion traditionnelle",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à percussion > Percussion traditionnelle",
+  "channelOriginCategoryName": "Tubano",
+  "attributes": [
+   {
+    "channelAttributeId": "aa890c83-a45a-45ce-b311-a599bcdf8bfd",
+    "attributeName": "Matériau de la coque",
+    "attributeCode": "hull_ply",
+    "status": "Recommended",
+    "typeValue": "LIST",
+    "attributeValueListCode": "hull_ply",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12200000",
+  "channelCategoryName": "Monde miniature",
+  "channelFullCategoryPath": "Jeu et jouet > Monde miniature",
+  "channelOriginCategoryName": "Véhicule miniature pour circuit",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C16090201",
+  "channelCategoryName": "Véhicule télécommandé",
+  "channelFullCategoryPath": "High-tech > Objet radiocommandé > Véhicule - Drone télécommandé > Véhicule télécommandé",
+  "channelOriginCategoryName": "Véhicule télécommandé",
+  "attributes": [
+   {
+    "channelAttributeId": "ccccc34d-5da7-4984-aa65-f1ec97a75b63",
+    "attributeName": "Image 2",
+    "attributeCode": "image_2",
+    "status": "Recommended",
+    "typeValue": "MEDIA",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12160000",
+  "channelCategoryName": "Jeu sportif",
+  "channelFullCategoryPath": "Jeu et jouet > Jeu sportif",
+  "channelOriginCategoryName": "Vélo",
+  "attributes": [
+   {
+    "channelAttributeId": "554a9ad9-5dea-4675-8824-b3579d7957ef",
+    "attributeName": "Nombre de pièces",
+    "attributeCode": "number_pieces",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C20170402",
+  "channelCategoryName": "Vernis colle",
+  "channelFullCategoryPath": "Produit consommable > Produit de finition > Vernis > Vernis colle",
+  "channelOriginCategoryName": "Vernis colle",
+  "attributes": [
+   {
+    "channelAttributeId": "97bbb440-0e25-4eab-bf92-784a40e67f04",
+    "attributeName": "Caractéristiques",
+    "attributeCode": "features_art_supply",
+    "status": "Recommended",
+    "typeValue": "LIST_MULTIPLE_VALUES",
+    "attributeValueListCode": "features_art_supply",
+    "defaultValue": ""
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Vêtement et accessoire poupée",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12010000",
+  "channelCategoryName": "Accessoire de jeu",
+  "channelFullCategoryPath": "Jeu et jouet > Accessoire de jeu",
+  "channelOriginCategoryName": "Vêtement et accessoire poupon",
+  "attributes": [
+   {
+    "channelAttributeId": "8c67b061-f8c8-47f2-a17d-535e38b7084f",
+    "attributeName": "Nombre de joueur(s) minimal",
+    "attributeCode": "min_players",
+    "status": "Recommended",
+    "typeValue": "TEXT",
+    "attributeValueListCode": null,
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C03010304",
+  "channelCategoryName": "Violon",
+  "channelFullCategoryPath": "Instrument de musique > Instrument à cordes > Violon et dérivé > Violon",
+  "channelOriginCategoryName": "Violon",
+  "attributes": [
+   {
+    "channelAttributeId": "5d9fbc70-5ae4-4775-8822-346001450f0d",
+    "attributeName": "Taille d'instrument",
+    "attributeCode": "instrument_size",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "instrument_size",
+    "defaultValue": null
+   }
+  ]
+ },
+ {
+  "channelCategoryCode": "C12000000",
+  "channelCategoryName": "Jeu et jouet",
+  "channelFullCategoryPath": "Jeu et jouet",
+  "channelOriginCategoryName": "Yoyo et astrojax",
+  "attributes": [
+   {
+    "channelAttributeId": "315ed71b-f5bf-47b3-9fd9-07231852f638",
+    "attributeName": "Âge (à partir de)",
+    "attributeCode": "target_age",
+    "status": "Required",
+    "typeValue": "LIST",
+    "attributeValueListCode": "target_age",
+    "defaultValue": null
+   }
+  ]
+ }
+]

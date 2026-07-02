@@ -249,13 +249,18 @@ Manage app → Logs.
   l'ancien `python-certifi-win32`. L'injection est globale : elle couvre aussi
   l'URL d'export `export2.beezup.com`.
 - Commandes : `uv sync` (installer/mettre à jour le venv), `uv run streamlit run app.py`
-  ou `run.bat` (lancer l'app)
+  ou `run.bat` (lancer l'app), `uv run pytest` (lancer les tests)
+- **Tests** (`tests/`) : logique pure de `data_processing` (normalize_value, compute_diff,
+  EAN...), parseurs d'`api_services` (JSON déguisé, match catégories) et retry du client.
+  Les fixtures `tests/fixtures/*.json` sont des extractions API réelles **allégées**
+  (Cultura = chemins tronqués, Brico Dépôt = cas nominal) qui servent de tests de
+  régression au correctif `_is_selected_category`. À lancer avant tout commit.
 - **Si le dossier du projet est copié ou déplacé** : lancer `uv sync --reinstall`. Les
   lanceurs `.exe` du venv (streamlit.exe...) embarquent des chemins absolus et
   continueraient d'exécuter le python de l'ancien emplacement (vécu en juillet 2026 :
   venv copié depuis PycharmProjects → l'app tournait sur l'ancien venv sans truststore).
 - pandas **2.3.3** (NE PAS passer en 3.x sans tests — changements cassants)
 - `requirements.txt` est **généré** depuis le lockfile (ne pas éditer à la main) :
-  `uv export --format requirements.txt --no-hashes --no-annotate -o requirements.txt`
+  `uv export --format requirements.txt --no-hashes --no-annotate --no-dev -o requirements.txt`
   Conservé uniquement pour le déploiement Streamlit Community Cloud — à régénérer
   après tout changement de dépendances.

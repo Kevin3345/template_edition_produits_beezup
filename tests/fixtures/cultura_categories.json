@@ -1,0 +1,3501 @@
+{
+ "channelCatalogCategoryConfigurations": [
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03010110"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à cordes",
+    "Guitare et dérivé",
+    "Guitare classique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03010304"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à cordes",
+    "Violon et dérivé",
+    "Violon"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03020101"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à percussion",
+    "Batterie acoustique",
+    "Batterie complète"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03020105"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à percussion",
+    "Batterie acoustique",
+    "Set de percussions"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03020907"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à percussion",
+    "Percussion traditionnelle",
+    "Tambour"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03020909"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à percussion",
+    "Percussion traditionnelle",
+    "Tambourin"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03020913"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à percussion",
+    "Percussion traditionnelle",
+    "Tubano"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03021010"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à percussion",
+    "Percussion à main",
+    "Crécelle"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03030110"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à vent et bois",
+    "Autre instrument à vent",
+    "Harmonica"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03030304"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à vent et bois",
+    "Vent et bois",
+    "Flûte de pan - Siku - Zampona"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03030306"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à vent et bois",
+    "Vent et bois",
+    "Flûte à bec - Kena - Quena"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03030309"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Instrument à vent et bois",
+    "Vent et bois",
+    "Saxophone"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03040202"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Piano - Clavier - Synthétiseur",
+    "Clavier",
+    "Clavier arrangeur"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C030",
+    "C03040401"
+   ],
+   "channelCategoryPath": [
+    "Instrument de musique",
+    "Piano - Clavier - Synthétiseur",
+    "Piano",
+    "Piano acoustique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C060",
+    "C06010201"
+   ],
+   "channelCategoryPath": [
+    "Support physique Jeu vidéo - Logiciel",
+    "Support physique Jeu vidéo",
+    "Jeu vidéo",
+    "Jeu vidéo"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C060",
+    "C06020101"
+   ],
+   "channelCategoryPath": [
+    "Support physique Jeu vidéo - Logiciel",
+    "Support physique Logiciel",
+    "Antivirus physique",
+    "Antivirus physique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C060",
+    "C06020201"
+   ],
+   "channelCategoryPath": [
+    "Support physique Jeu vidéo - Logiciel",
+    "Support physique Logiciel",
+    "Logiciel bureautique et utilitaire physique",
+    "Logiciel bureautique et utilitaire physique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07020702"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Protection d'objet",
+    "Emballage cadeau",
+    "Pochette cadeau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07030101"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Sac - Cartable - Valise",
+    "Cartable",
+    "Cartable de maroquinerie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07030401"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Sac - Cartable - Valise",
+    "Sac de rangement",
+    "Sac d'artiste"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07030601"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Sac - Cartable - Valise",
+    "Sac pour multimédia",
+    "Sac de transport pour multimédia"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07030902"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Sac - Cartable - Valise",
+    "Sac à main et dérivé",
+    "Pochette à main"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07031001"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Sac - Cartable - Valise",
+    "Sacoche",
+    "Sacoche de transport console de jeux"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07040201"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Sangle de transport",
+    "Harnais",
+    "Harnais pour appareil photo"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07050111"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Transport et rangement",
+    "Boite alimentaire",
+    "Lunch-box - Bento"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07050601"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Transport et rangement",
+    "Carton à dessin",
+    "Carton à dessin"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07051501"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Transport et rangement",
+    "Album de classement",
+    "Album photo"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07051504"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Transport et rangement",
+    "Album de classement",
+    "Album pour carte à collectionner"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07051601"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Transport et rangement",
+    "Classeur - Trieur - Dossier",
+    "Classeur"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07060106"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Trousse et vanity",
+    "Trousse",
+    "Trousse de rangement fourniture créative"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C070",
+    "C07060110"
+   ],
+   "channelCategoryPath": [
+    "Sac - Protection - Rangement - Transport",
+    "Trousse et vanity",
+    "Trousse",
+    "Trousse à stylo"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C080",
+    "C08030909"
+   ],
+   "channelCategoryPath": [
+    "Produit alimentaire non frais",
+    "Ingrédient de cuisine",
+    "Préparation prêt à l'emploi",
+    "Kit cuisine moléculaire"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C090",
+    "C09020202"
+   ],
+   "channelCategoryPath": [
+    "Support physique Livre – Magazine - Carte",
+    "Livre physique",
+    "Livre physique",
+    "Livre physique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C090",
+    "C09020401"
+   ],
+   "channelCategoryPath": [
+    "Support physique Livre – Magazine - Carte",
+    "Livre physique",
+    "Méthode et Partition musicale",
+    "Méthode"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C090",
+    "C09020402"
+   ],
+   "channelCategoryPath": [
+    "Support physique Livre – Magazine - Carte",
+    "Livre physique",
+    "Méthode et Partition musicale",
+    "Partition musicale"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C0",
+    "C090",
+    "C09030102"
+   ],
+   "channelCategoryPath": [
+    "Support physique Livre – Magazine - Carte",
+    "Presse",
+    "Journal - Magazine",
+    "Magazine"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C100",
+    "C10030505"
+   ],
+   "channelCategoryPath": [
+    "Accessoire de la personne",
+    "Accessoire de la tête",
+    "Chapeau et bonnet",
+    "Chapeau de fête"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C100",
+    "C10030803"
+   ],
+   "channelCategoryPath": [
+    "Accessoire de la personne",
+    "Accessoire de la tête",
+    "Masque et écran",
+    "Masque de déguisement"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C100",
+    "C10050103"
+   ],
+   "channelCategoryPath": [
+    "Accessoire de la personne",
+    "Accessoire des mains et bras",
+    "Arme de déguisement",
+    "Epée de déguisement"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C100",
+    "C10050303"
+   ],
+   "channelCategoryPath": [
+    "Accessoire de la personne",
+    "Accessoire des mains et bras",
+    "Bague",
+    "Bague de déguisement"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C100",
+    "C10050904"
+   ],
+   "channelCategoryPath": [
+    "Accessoire de la personne",
+    "Accessoire des mains et bras",
+    "Gant",
+    "Gant de déguisement et accessoire de main et bras"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C100",
+    "C10070402"
+   ],
+   "channelCategoryPath": [
+    "Accessoire de la personne",
+    "Vêtement",
+    "Ensemble de vêtements",
+    "Panoplie de déguisement"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C110",
+    "C11030401"
+   ],
+   "channelCategoryPath": [
+    "Cosmétique - Produit d'entretien - Huile essentielle",
+    "Cosmétique prêt à l'emploi",
+    "Maquillage de déguisement",
+    "Maquillage de déguisement"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C110",
+    "C11090502"
+   ],
+   "channelCategoryPath": [
+    "Cosmétique - Produit d'entretien - Huile essentielle",
+    "Savon - Lessive - Détachant",
+    "Savon cosmétique",
+    "Kit savon"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010301"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Accessoire de machine de jeu",
+    "Accessoire air hockey"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010303"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Accessoire de machine de jeu",
+    "Accessoire billard - Snooker"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010306"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Accessoire de machine de jeu",
+    "Accessoire fléchette"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010401"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Accessoire poupée poupon",
+    "Maison de poupée et mobilier"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010402"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Accessoire poupée poupon",
+    "Poussette et landau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010404"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Accessoire poupée poupon",
+    "Vêtement et accessoire poupon"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010405"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Accessoire poupée poupon",
+    "Vêtement et accessoire poupée"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010601"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Accessoire véhicule",
+    "Accessoire véhicule enfant"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010701"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Dé vendu seul",
+    "Dé classique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010801"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Pion et jeton vendu seul",
+    "Jeton à jouer - Malette de poker"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010804"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Pion et jeton vendu seul",
+    "Pion à jouer"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12010901"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Set de jouets",
+    "Pochette surprise"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12011001"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Tapis de jeu",
+    "Piste de dé"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12011002"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Tapis de jeu",
+    "Tapis de jeu sur table"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12011003"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Accessoire de jeu",
+    "Tapis de jeu",
+    "Tapis pour puzzle"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12020103"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Balle - Boule - Bille",
+    "Ballon et balle",
+    "Ballon et balle"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12020104"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Balle - Boule - Bille",
+    "Ballon et balle",
+    "Ballon sauteur"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12020201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Balle - Boule - Bille",
+    "Bille",
+    "Bille - Calot"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12030201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Farce et attrape",
+    "Farce et attrape non alimentaire",
+    "Farce et attrape non alimentaire"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12040302"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Figurine",
+    "Figurine de monde miniature",
+    "Figurine objet et accessoire"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12040303"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Figurine",
+    "Figurine de monde miniature",
+    "Figurine personnage"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jeu musical",
+    "Boîte à musique - Boîte à bruit"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Ardoise magique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050202"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Boulier"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050204"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Boîte à forme - Forme à trier"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050205"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Jeu à marteler - Tap-tap"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050206"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Jouet à bascule"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050207"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Jouet à pousser - Jouet à tirer"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050208"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Marionnette - Théâtre"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050210"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Table d'activité"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050211"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet d'éveil",
+    "Tente et tunnel d'activité"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050401"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet premier âge",
+    "Clé d'éveil"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050402"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet premier âge",
+    "Cube d'éveil"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12050405"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu d'éveil",
+    "Jouet premier âge",
+    "Livre d'éveil"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12060101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de café",
+    "Air hockey - Baby-foot",
+    "Air hockey"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12060102"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de café",
+    "Air hockey - Baby-foot",
+    "Baby-foot"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12060201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de café",
+    "Billard - Snooker",
+    "Billard - Snooker"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12060301"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de café",
+    "Flipper",
+    "Flipper"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12060402"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de café",
+    "Jeu casino",
+    "Table de jeu"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12070101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de carte",
+    "Carte à collectionner",
+    "Carte à collectionner"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12070201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de carte",
+    "Jeu de cartes classique",
+    "Jeu de carte classique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12080103"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de cirque",
+    "Matériel d'équilibre",
+    "Planche d'équilibre - Rolla bolla"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12080106"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de cirque",
+    "Matériel d'équilibre",
+    "Échasse"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12080201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de cirque",
+    "Matériel de jonglage",
+    "Anneau - Foulard"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12090101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de construction",
+    "Circuit",
+    "Circuit à bille"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C120",
+    "C12090302"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de construction",
+    "Construction brique",
+    "Construction d'objet"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12110201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de lancer",
+    "Jeu de fléchette",
+    "Jeu de fléchette"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12110301"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de lancer",
+    "Jeu de quille",
+    "Jeu de palet - Croquet"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12110302"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de lancer",
+    "Jeu de quille",
+    "Jeu de quille - Jeu de boule - Jeu de palet"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120102"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Perle de jeu",
+    "Perle à repasser"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120302"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set d'activité de cuisine"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120303"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set d'activité de gravure"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120305"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set d'activité de peinture"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120307"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set d'origami"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120309"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de coloriage - Dessin - Pochoir"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120310"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de couture - Tricot - Tissage"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120311"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de création de bijoux et perle"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120312"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de création de savon"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120313"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de création maquillage"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120314"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de création parfum"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120315"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de découpage - collage"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120317"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de mosaïque"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120318"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de moulage - modelage"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120323"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de poterie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120325"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de sable à modeler"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120327"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de scrapbooking"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120329"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de tampon"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12120330"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de loisir créatif",
+    "Set de jeu de loisir créatif",
+    "Set de tatouage"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12130101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de récré",
+    "Bilboquet",
+    "Bilboquet"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12130202"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de récré",
+    "Jeu antistress",
+    "Handspinner - Fidget cube"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12130303"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de récré",
+    "Jeu de toupie",
+    "Toupie vendue seule"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12130401"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de récré",
+    "Jeu à bulle de savon",
+    "Jeu à bulle de savon"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12130501"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de récré",
+    "Pog - Osselet",
+    "Pog - Osselet"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12130801"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de récré",
+    "Yoyo et astrojax",
+    "Yoyo et astrojax"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12140101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de société",
+    "Jeu d'ambiance",
+    "Jeu d'ambiance"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12140301"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de société",
+    "Jeu de connaissance",
+    "Jeu de connaissance et culture générale"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12140401"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de société",
+    "Jeu de domino - Mikado",
+    "Jeu de domino - Mikado"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12140601"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de société",
+    "Jeu de loto - bingo",
+    "Loto - Bingo"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12140701"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de société",
+    "Jeu de magie",
+    "Jeu de magie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12140802"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de société",
+    "Jeu de mémoire et logique",
+    "Jeu de mémoire - Memory"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12141001"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de société",
+    "Jeu de plateau",
+    "Jeu de plateau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12141301"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu de société",
+    "Set de jeu de société",
+    "Set de jeu de société"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12150101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu scientifique",
+    "Jeu scientifique",
+    "Jeu sur l'anatomie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12150103"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu scientifique",
+    "Jeu scientifique",
+    "Jeu sur l'astronomie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12150105"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu scientifique",
+    "Jeu scientifique",
+    "Jeu sur la nature et les animaux"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12150106"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu scientifique",
+    "Jeu scientifique",
+    "Jeu sur les sciences - Electricité - Chimie - Physique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Draisienne",
+    "Draisienne"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160202"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Draisienne",
+    "Moto - Scooter jouet"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160402"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Jeu de raquette",
+    "Jokari"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160501"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Jeu de tir",
+    "Arc à fléchette"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160601"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Jeu à sauter",
+    "Corde à sauter"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160603"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Jeu à sauter",
+    "Élastique à sauter"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160701"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Jeu à vent",
+    "Cerf-volant"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160702"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Jeu à vent",
+    "Moulin à vent"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12160801"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Porteur - Pousseur",
+    "Porteur - Pousseur"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12161301"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Voiture taille enfant à pédale",
+    "Camion à pédale"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12161302"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Voiture taille enfant à pédale",
+    "Quad - Kart à pédale"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12161303"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Voiture taille enfant à pédale",
+    "Tracteur à pédale"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12161401"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Vélo",
+    "Vélo"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12161501"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu sportif",
+    "Jeu d'adresse",
+    "Jeu d'adresse extérieur"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12170201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu éducatif",
+    "Jeu éducatif histoire-géographie",
+    "Globe terrestre - Mappemonde"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12170202"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jeu éducatif",
+    "Jeu éducatif histoire-géographie",
+    "Jeu sur l'histoire - La géographie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Faux appareil multimédia",
+    "Jouet appareil photo d'éveil"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180103"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Faux appareil multimédia",
+    "Jouet camescope d'éveil"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180105"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Faux appareil multimédia",
+    "Jouet réveil éveil"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Univers d'imitation",
+    "Bricolage - Établi - Outil"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180202"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Univers d'imitation",
+    "Coiffeur - Esthéticienne - Barbier"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180203"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Univers d'imitation",
+    "Commerçant - Marchande"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180204"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Univers d'imitation",
+    "Dinette - Cuisine - Restaurant"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180205"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Univers d'imitation",
+    "Docteur - Infirmière - Vétérinaire"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180207"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Univers d'imitation",
+    "Imitation instrument musique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180208"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Univers d'imitation",
+    "Jardinage - Brouette"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12180209"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Jouet d'imitation",
+    "Univers d'imitation",
+    "Soin de la maison - Nettoyage - Ménage"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12190101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Modélisme",
+    "Maquette",
+    "Maquette avion - Vaisseau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12190104"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Modélisme",
+    "Maquette",
+    "Maquette camion - Engin de chantier"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12190105"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Modélisme",
+    "Maquette",
+    "Maquette de décor - Terrain"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12200101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Monde miniature",
+    "Circuit monde miniature",
+    "Circuit miniature"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12200201"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Monde miniature",
+    "Meuble miniature",
+    "Meuble miniature"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12200301"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Monde miniature",
+    "Robot monde miniature",
+    "Robot miniature"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12200401"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Monde miniature",
+    "Univers miniature",
+    "Garage miniature - établis"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12200501"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Monde miniature",
+    "Véhicule miniature",
+    "Avion et hélicoptère miniature"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12200502"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Monde miniature",
+    "Véhicule miniature",
+    "Bateau et sous marin miniature"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12200504"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Monde miniature",
+    "Véhicule miniature",
+    "Engin terrestre miniature"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12200506"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Monde miniature",
+    "Véhicule miniature",
+    "Véhicule miniature pour circuit"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12210202"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Peluche et doudou",
+    "Peluche",
+    "Peluche"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12220101"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Poupée et poupon",
+    "Poupon",
+    "Poupon"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12220301"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Poupée et poupon",
+    "Tête à coiffer",
+    "Tête à coiffer"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C122",
+    "C12230103"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Puzzle",
+    "Puzzle",
+    "Puzzle à décorer"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C130",
+    "C13030301"
+   ],
+   "channelCategoryPath": [
+    "Mobilier",
+    "Meuble",
+    "Bibliothèque",
+    "Bibliothèque"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C130",
+    "C13030401"
+   ],
+   "channelCategoryPath": [
+    "Mobilier",
+    "Meuble",
+    "Bureau",
+    "Bureau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C130",
+    "C13032309"
+   ],
+   "channelCategoryPath": [
+    "Mobilier",
+    "Meuble",
+    "Tableau",
+    "Tableau pour enfant"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C130",
+    "C13050202"
+   ],
+   "channelCategoryPath": [
+    "Mobilier",
+    "Structure de jeu extérieur",
+    "Cabane extérieure",
+    "Maison de jeu extérieur"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C140",
+    "C14050307"
+   ],
+   "channelCategoryPath": [
+    "Connectique - Alimentation - Éclairage",
+    "Eclairage de scène - Ambiance",
+    "Projecteur de scène",
+    "Projecteur stroboscope"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C140",
+    "C14060404"
+   ],
+   "channelCategoryPath": [
+    "Connectique - Alimentation - Éclairage",
+    "Lampe",
+    "Lampe à porter",
+    "Lampe pointeur laser"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C150",
+    "C15020201"
+   ],
+   "channelCategoryPath": [
+    "Décoration - Art de la table - Textile",
+    "Cadre - Miroir",
+    "Cadre en kit",
+    "Cadre en kit"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C150",
+    "C15080301"
+   ],
+   "channelCategoryPath": [
+    "Décoration - Art de la table - Textile",
+    "Ustensile de support et d'affichage",
+    "Porte menu",
+    "Porte menu"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16010102"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Animal - Robot - Objet interactif",
+    "Animal interactif",
+    "Animal interactif virtuel"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040201"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Console",
+    "Borne d'arcade grand format"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040211"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Console",
+    "Console Nintendo Switch"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040219"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Console",
+    "Console PlayStation 3"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040230"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Console",
+    "Console rétrogaming - Mini borne d'arcade"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040231"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Console",
+    "Console éducative"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040233"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Console",
+    "Simulateur de conduite"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040302"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Manette et joystick",
+    "Figurine de jeu - Amiboo"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040306"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Manette et joystick",
+    "Manette"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16040801"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Console et accessoire de console",
+    "Support",
+    "Support pour console"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16050101"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Image - Vidéo",
+    "Appareil photo - vidéo",
+    "Appareil photo Argentique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16050105"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Image - Vidéo",
+    "Appareil photo - vidéo",
+    "Appareil photo numérique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16050502"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Image - Vidéo",
+    "Film - Pellicule pour appareil photo",
+    "Film instantané"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16070203"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Livre - Carnet électronique",
+    "Livre électronique",
+    "Livre électronique éducatif"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16080201"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Objet connecté",
+    "Drone connecté",
+    "Drone connecté"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16090201"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Objet radiocommandé",
+    "Véhicule - Drone télécommandé",
+    "Véhicule télécommandé"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16100201"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Ordinateur et tablette",
+    "Liseuse",
+    "Liseuse"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16100306"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Ordinateur et tablette",
+    "Ordinateur",
+    "Ordinateur éducatif"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16100307"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Ordinateur et tablette",
+    "Ordinateur",
+    "PC Gamer"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16100404"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Ordinateur et tablette",
+    "Tablette",
+    "Tablette éducative"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16120102"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Périphérique informatique",
+    "Accesoire de souris",
+    "Tapis de souris"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16120301"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Périphérique informatique",
+    "Commutateur",
+    "Switch KVM"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16130502"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Radiocommunication",
+    "Talkie-walkie",
+    "Talkie-walkie jouet"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16150307"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Son - DJ",
+    "Casque",
+    "Casque arceau filaire"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16150308"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Son - DJ",
+    "Casque",
+    "Casque audio enfant"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16151101"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Son - DJ",
+    "Microphone",
+    "Micro - Karaoké"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C161",
+    "C16171103"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Téléphonie et mobilité",
+    "Téléphone mobile",
+    "Téléphone éducatif"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17010103"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Découpe manuelle",
+    "Ciseaux - Gouge",
+    "Ciseaux de couture"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17010402"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Découpe manuelle",
+    "Cutter",
+    "Cutter de bureau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17010705"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Découpe manuelle",
+    "Gabarit de découpe - Emporte-pièce",
+    "Gabarit de découpe pour machine"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17011801"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Découpe manuelle",
+    "Taille crayon",
+    "Taille crayon"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17020105"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Loupe et ustensile de grossissement",
+    "Loupe",
+    "Loupe à main éducative"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17050101"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile d'attache et fixation",
+    "Agrafeuse manuelle",
+    "Agrafeuse de bureau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17060104"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile d'entretien",
+    "Brosse d'entretien",
+    "Brosse de nettoyage tableau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17080404"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile de formage",
+    "Moule",
+    "Moule découpoir"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17080904"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile de formage",
+    "Set d'ustensiles de formage",
+    "Set d'outils de sculpture"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C171",
+    "C17100901"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile de mercerie",
+    "Set d'outil de mercerie",
+    "Set d'outil de mercerie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C172",
+    "C17220311"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile de traçage",
+    "Gabarit de traçage",
+    "Trace forme créative - Gabarit"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C172",
+    "C17220602"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile de traçage",
+    "Règle - Équerre - Rapporteur",
+    "Rapporteur scolaire"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C172",
+    "C17220616"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile de traçage",
+    "Règle - Équerre - Rapporteur",
+    "Équerre technique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C181",
+    "C18130101"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil électrique",
+    "Loupe et ustensile de grossissement électronique",
+    "Jumelle - Télescope",
+    "Jumelle"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C181",
+    "C18130104"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil électrique",
+    "Loupe et ustensile de grossissement électronique",
+    "Jumelle - Télescope",
+    "Longue-vue éducative"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C181",
+    "C18130105"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil électrique",
+    "Loupe et ustensile de grossissement électronique",
+    "Jumelle - Télescope",
+    "Télescope"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C181",
+    "C18130201"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil électrique",
+    "Loupe et ustensile de grossissement électronique",
+    "Loupe électronique",
+    "Loupe électronique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C181",
+    "C18130302"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil électrique",
+    "Loupe et ustensile de grossissement électronique",
+    "Microscope",
+    "Microscope éducatif"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19010201"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Agenda - Calendrier - Registre",
+    "Calendrier",
+    "Calendrier de bureau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19020218"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Cahier - Album - Bloc",
+    "Bloc de feuille",
+    "Bloc-notes - Bloc de bureau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19020305"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Cahier - Album - Bloc",
+    "Cahier",
+    "Cahier de dessin"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19020309"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Cahier - Album - Bloc",
+    "Cahier",
+    "Cahier scolaire"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19020403"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Cahier - Album - Bloc",
+    "Carnet",
+    "Carnet de croquis"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19020404"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Cahier - Album - Bloc",
+    "Carnet",
+    "Carnet de note"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19020501"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Cahier - Album - Bloc",
+    "Livre et journal",
+    "Journal intime"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19030102"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Kit papeterie",
+    "Kit papeterie",
+    "Kit scrapbooking"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19040302"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Enveloppe - Pochette",
+    "Enveloppe carte de visite"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19040602"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Papier cartonné",
+    "Papier buvard"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19040706"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Papier créatif",
+    "Papier de soie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19040801"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Papier de précision",
+    "Papier millimétré"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19040901"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Papier dessin - peinture",
+    "Papier aquarelle"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19041001"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Papier duplication",
+    "Papier calque"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19041401"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Papier template",
+    "Papier listing et imprimé"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19041601"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Papier à gratter",
+    "Papier à gratter"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C190",
+    "C19041802"
+   ],
+   "channelCategoryPath": [
+    "Papier et dérivé",
+    "Papier",
+    "Rouleau de papier",
+    "Rouleau de papier pour tableau blanc"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C200",
+    "C20010111"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Attache et fixation chimique",
+    "Colle",
+    "Colle pour puzzle"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C200",
+    "C20020301"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Attache et fixation mécanique",
+    "Aimant - Magnet",
+    "Aimant basique - Aimant pour tableau"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C200",
+    "C20021007"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Attache et fixation mécanique",
+    "Fermeture - Fermoir",
+    "Mousqueton"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C200",
+    "C20030201"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Bougie",
+    "Kit pour bougie",
+    "Kit pour bougie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C200",
+    "C20040104"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Calendrier de l'avent",
+    "Calendrier de l'avent prêt à l'emploi",
+    "Calendrier de l'avent jouet"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20101204"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Fourniture de dessin - écriture - impression",
+    "Gomme",
+    "Gomme tout usage"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20101301"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Fourniture de dessin - écriture - impression",
+    "Kit d'écriture",
+    "Kit d'écriture"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20101601"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Fourniture de dessin - écriture - impression",
+    "Pastel",
+    "Craie aquarellable"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20101802"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Fourniture de dessin - écriture - impression",
+    "Plume et calame",
+    "Plume de calligraphie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20102106"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Fourniture de dessin - écriture - impression",
+    "Stylo feutre",
+    "Set de stylo feutre et autre(s) produit(s)"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20102603"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Fourniture de dessin - écriture - impression",
+    "Surligneur",
+    "Surligneur"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20141502"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Matière brute",
+    "Pâte à modeler sans cuisson",
+    "Pâte à modeler"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20161101"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Petite fourniture",
+    "Paillette - Sequin - Strass",
+    "Paillette"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20161102"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Petite fourniture",
+    "Paillette - Sequin - Strass",
+    "Sequin"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20161602"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Petite fourniture",
+    "Plume",
+    "Plume décorative"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20162201"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Petite fourniture",
+    "Sticker",
+    "Gommette"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20162202"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Petite fourniture",
+    "Sticker",
+    "Skin et sticker ordinateur"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20162204"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Petite fourniture",
+    "Sticker",
+    "Sticker d'embellissement - Autocollant"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20162301"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Petite fourniture",
+    "Tesselle",
+    "Kit mosaïque"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C201",
+    "C20170402"
+   ],
+   "channelCategoryPath": [
+    "Produit consommable",
+    "Produit de finition",
+    "Vernis",
+    "Vernis colle"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C160",
+    "C16090203"
+   ],
+   "channelCategoryPath": [
+    "High-tech",
+    "Objet radiocommandé",
+    "Véhicule - Drone télécommandé",
+    "Pièces détachées et accessoires pour véhicule/drone radiocommandé"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C170",
+    "C17080906"
+   ],
+   "channelCategoryPath": [
+    "Machine et outil manuel",
+    "Ustensile de formage",
+    "Set d'ustensiles de formage",
+    "Autres outils à pâtisserie"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C1",
+    "C121",
+    "C12190110"
+   ],
+   "channelCategoryPath": [
+    "Jeu et jouet",
+    "Modélisme",
+    "Maquette",
+    "Pièces détachées, outils et accessoires pour maquettes"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C220",
+    "C22010203"
+   ],
+   "channelCategoryPath": [
+    "Support physique Musique - Vidéo",
+    "Support physique Musique",
+    "CD - Vinyle - Bluray musique",
+    "CD musique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C220",
+    "C22010206"
+   ],
+   "channelCategoryPath": [
+    "Support physique Musique - Vidéo",
+    "Support physique Musique",
+    "CD - Vinyle - Bluray musique",
+    "Vinyle musique"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C220",
+    "C22020202"
+   ],
+   "channelCategoryPath": [
+    "Support physique Musique - Vidéo",
+    "Support physique Vidéo",
+    "DVD - Bluray",
+    "Bluray vidéo"
+   ]
+  },
+  {
+   "catalogCategoryPath": [
+    "C2",
+    "C220",
+    "C22020203"
+   ],
+   "channelCategoryPath": [
+    "Support physique Musique - Vidéo",
+    "Support physique Vidéo",
+    "DVD - Bluray",
+    "DVD vidéo"
+   ]
+  }
+ ]
+}

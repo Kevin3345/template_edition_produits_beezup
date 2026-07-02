@@ -17,3 +17,12 @@ dependencies = [
 [tool.uv]
 # Application (pas un package installable) : uv ne tente pas de builder le projet
 package = false
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
