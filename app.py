@@ -21,6 +21,7 @@ from logger_utils import get_log_context, setup_logging
 from views import (
     attributes_view,
     category_view,
+    export_by_skus_view,
     export_view,
     import_view,
     login_view,
@@ -90,17 +91,22 @@ def main():
         st.space("small")
         st.caption("Fait avec 💕 par ShadBeez")
 
+    # --- S\u00E9lection de la boutique (commune aux deux workflows de g\u00E9n\u00E9ration) ---
+    settings_view.render()
+
+    st.space("small")
+
     # --- Onglets principaux ---
-    tab1, tab2 = st.tabs(["G\u00C9N\u00C9RER UN TEMPLATE", "\u00C9DITER DES PRODUITS"])
+    tab1, tab2, tab3 = st.tabs([
+        "G\u00C9N\u00C9RER PAR CAT\u00C9GORIE",
+        "G\u00C9N\u00C9RER PAR SKUS",
+        "\u00C9DITER DES PRODUITS"
+    ])
 
     with tab1:
         st.space("small")
 
-        settings_view.render()
-
         if st.session_state.catalog_id:
-            st.space("small")
-
             category_data = category_view.render()
 
             if category_data:
@@ -112,8 +118,14 @@ def main():
                 if df_attr is not None:
                     st.space("small")
                     export_view.render(full_path_str, sku_list, df_attr)
+        else:
+            st.info("S\u00E9lectionnez une boutique pour commencer.")
 
     with tab2:
+        st.space("small")
+        export_by_skus_view.render()
+
+    with tab3:
         st.space("small")
         import_view.render()
 

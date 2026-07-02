@@ -1,16 +1,10 @@
-import json
-from pathlib import Path
-
 import pandas as pd
 import streamlit as st
 
 import api_services as api
 import data_processing as proc
 from logger_utils import get_log_context
-
-# Chemin absolu vers required_attributes.json, indépendant du répertoire de lancement.
-# Structure attendue : views/attributes_view.py → ../required_attributes.json
-_REQUIRED_ATTRS_PATH = Path(__file__).resolve().parent.parent / "required_attributes.json"
+from marketplace_config import get_channel_config
 
 
 def render(selected_category_path: str):
@@ -162,16 +156,7 @@ def _load_attributes(
     df_chan = api.get_channel_attributes(client, channel_id)
     df_cat = api.get_channel_category_attributes(client, catalog_id, selected_category_path)
     df_concat = pd.concat([df_chan, df_cat], ignore_index=True)
-
-    # Normalisation
-    df_concat["Channel Attribute Id"] = (
-        df_concat["Channel Attribute Id"].astype(str).str.lower().str.strip()
-    )
-    df_concat["Status"] = df_concat["Status"].str.title()
-    df_concat["Type Value"] = df_concat["Type Value"].str.title()
-    df_concat["Attribute Code"] = (
-        df_concat["Attribute Code"].fillna(df_concat["Attribute Name"]).astype(str).str.strip()
-    )
+    df_concat = proc.normalize_attributes_dataframe(df_concat)
 
     # Dédoublonnage + colonne Label
     df_clean = proc.dedupe_keep_most_restrictive(df_concat)
@@ -182,20 +167,16 @@ def _load_attributes(
         lambda x: x in mapping_dict and mapping_dict[x] is not None
     )
 
-    # Attributs obligatoires depuis le fichier de référence
-    with open(_REQUIRED_ATTRS_PATH, "r", encoding="utf-8") as f:
-        required_data = json.load(f)
+    # Attributs obligatoires depuis la configuration marketplace
+    channel_config = get_channel_config(store_name)
+    required_attributes_clean = channel_config["required_attributes"]
 
-    sales_channel = store_name.split("_")[-1]
-    required_attributes = required_data.get(sales_channel, [])
-
-    if not required_attributes:
+    if not required_attributes_clean:
         logger.warning(
-            f"Aucun attribut obligatoire trouvé pour le canal '{sales_channel}' "
-            f"(store_name='{store_name}'). Vérifiez required_attributes.json."
+            f"Aucun attribut obligatoire trouvé pour le canal '{channel_config['sales_channel']}' "
+            f"(store_name='{store_name}'). Vérifiez marketplace_config.json."
         )
 
-    required_attributes_clean = [str(a).strip() for a in required_attributes]
     st.session_state.required_attributes = required_attributes_clean
 
     mask_obl = df_clean["Attribute Code"].isin(required_attributes_clean)

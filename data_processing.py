@@ -1,4 +1,5 @@
 import warnings
+from typing import Optional
 
 import pandas as pd
 from loguru import logger
@@ -40,6 +41,81 @@ def get_available_categories(df_categories: pd.DataFrame, df_mapping: pd.DataFra
     logger.debug(f"get_available_categories : {len(df_result)} catégorie(s) disponibles après fusion.")
 
     return df_result.sort_values(by="Total Product Count", ascending=False).reset_index(drop=True)
+
+
+def normalize_attributes_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Normalisation commune du DataFrame d'attributs (canal + catégories) :
+    IDs en minuscules, Status/Type Value en Title Case, Attribute Code complété
+    par Attribute Name si vide.
+    """
+    df = df.copy()
+
+    df["Channel Attribute Id"] = (
+        df["Channel Attribute Id"].astype(str).str.lower().str.strip()
+    )
+    df["Status"] = df["Status"].str.title()
+    df["Type Value"] = df["Type Value"].str.title()
+    df["Attribute Code"] = (
+        df["Attribute Code"].fillna(df["Attribute Name"]).astype(str).str.strip()
+    )
+
+    return df
+
+
+def select_attributes_for_category(
+        df_attrs: pd.DataFrame,
+        category_code: str,
+        selected_statuses: list[str],
+        required_codes: list[str],
+        excluded_codes: list[str]
+) -> pd.DataFrame:
+    """
+    Sélectionne les attributs applicables à une catégorie pour la génération par SKUs.
+
+    La jointure se fait par code catégorie (et non par chemin) : on garde les lignes
+    dont le Category Code correspond, plus celles sans code (attributs Channel et
+    Cross Categories, valables pour toutes les catégories). Les codes sont comparés
+    via normalize_value car l'export peut livrer un code numérique (12345.0).
+
+    Sélection finale : attributs obligatoires (marqués Source="Obligatory")
+    + attributs des statuts choisis, moins les exclus (les exclusions gagnent,
+    comme dans le PoC d'origine).
+    """
+    code_series = df_attrs["Category Code"]
+    target = normalize_value(category_code)
+
+    subset = df_attrs[
+        code_series.isna() | (code_series.apply(normalize_value) == target)
+    ]
+    df_dedup = dedupe_keep_most_restrictive(subset)
+
+    required = {str(c).strip() for c in required_codes}
+    excluded = {str(c).strip() for c in excluded_codes}
+
+    mask_obl = df_dedup["Attribute Code"].isin(required)
+    df_dedup.loc[mask_obl, "Source"] = "Obligatory"
+
+    keep = (mask_obl | df_dedup["Status"].isin(selected_statuses))
+    keep &= ~df_dedup["Attribute Code"].isin(excluded)
+
+    return df_dedup[keep].reset_index(drop=True)
+
+
+def get_category_path_by_code(df_attrs: pd.DataFrame, category_code: str) -> Optional[str]:
+    """
+    Retrouve le Channel Category Path associé à un code catégorie.
+    Retourne None si le code est inconnu de la route /attributes.
+    """
+    code_series = df_attrs["Category Code"]
+    target = normalize_value(category_code)
+
+    matches = df_attrs.loc[
+        code_series.notna() & (code_series.apply(normalize_value) == target),
+        "Channel Category Path"
+    ]
+
+    return matches.iloc[0] if not matches.empty else None
 
 
 def dedupe_keep_most_restrictive(df: pd.DataFrame) -> pd.DataFrame:

@@ -8,13 +8,20 @@ ne sont pas évidents à la lecture du code seul.
 
 ## Objectif de l'application
 
-Application Streamlit interne (usage : l'équipe et moi-même) qui gère deux workflows
+Application Streamlit interne (usage : l'équipe et moi-même) qui gère trois workflows
 autour de l'intégrateur de flux **BeezUP** :
 
-1. **Génération de template** : produit un fichier Excel listant des produits et leurs
+1. **Génération par catégorie** : produit un fichier Excel listant des produits et leurs
    attributs (avec valeurs manquantes à compléter) pour une catégorie d'un canal de vente.
-2. **Réintégration de template** : relit le template complété et applique les
-   modifications dans BeezUP via des *overrides* produit.
+2. **Génération par SKUs** : l'utilisateur colle une liste de SKUs (toutes catégories
+   confondues) ; l'app regroupe les produits par catégorie via la **colonne catégorie de
+   l'export BeezUP** (jointure par `channelCategoryCode`, pas par chemin — immunisé
+   contre les chemins tronqués du piège n° 6) et génère un template par catégorie,
+   livrés dans un ZIP. Disponible uniquement pour les canaux dont `category_column`
+   est renseignée dans `marketplace_config.json` (ex. Maxeda : `online_hybris_category`).
+3. **Réintégration de template** : relit le template complété (issu de l'un ou l'autre
+   workflow de génération) et applique les modifications dans BeezUP via des
+   *overrides* produit.
 
 Toute l'application repose sur l'API BeezUP (`https://api.beezup.com`).
 
@@ -30,14 +37,18 @@ api_services.py         # Appels métier BeezUP (au-dessus du client)
 data_processing.py      # Traitement pandas : template, diff, normalisation
 excel_utils.py          # Génération du fichier Excel (xlsxwriter)
 logger_utils.py         # Configuration loguru (console + fichier log.txt)
-required_attributes.json # Attributs obligatoires par canal de vente (clé = suffixe store_name)
+marketplace_config.py   # Lecture de marketplace_config.json (config par canal)
+marketplace_config.json # Par canal (clé = suffixe store_name) : required_attributes,
+                        # excluded_attributes, category_column (None = génération par
+                        # SKUs indisponible pour ce canal)
 views/
   __init__.py           # Vide — nécessaire pour que 'views' soit un package
   login_view.py
-  settings_view.py
+  settings_view.py      # Rendu UNE fois au-dessus des onglets (boutique commune)
   category_view.py
   attributes_view.py
-  export_view.py        # Génération de template
+  export_view.py        # Génération par catégorie
+  export_by_skus_view.py # Génération par SKUs (multi-templates + ZIP)
   import_view.py        # Réintégration de template
 ```
 

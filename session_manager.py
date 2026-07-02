@@ -37,6 +37,10 @@ def get_defaults() -> dict:
         "last_export_key": None,
         "total_count": None,
 
+        # Export par SKUs (génération multi-catégories)
+        "skus_generation_results": None,
+        "last_skus_generation_key": None,
+
         # Import (réintégration)
         "import_results": None,
         "import_fingerprint": None,

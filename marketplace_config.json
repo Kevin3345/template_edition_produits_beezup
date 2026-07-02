@@ -1,0 +1,501 @@
+{
+  "BRCOBE": {
+    "required_attributes": [
+      "core_gtin",
+      "proddesc_online_product_name_FR_BE",
+      "proddesc_online_product_name_NL_BE",
+      "proddesc_online_product_name_mirakl",
+      "proddesc_online_body_text_FR_BE",
+      "proddesc_online_body_text_NL_BE",
+      "proddesc_online_body_text_mirakl",
+      "online_max_usp_1_FR_BE",
+      "online_max_usp_1_NL_BE",
+      "online_max_usp_2_FR_BE",
+      "online_max_usp_2_NL_BE",
+      "online_max_usp_3_FR_BE",
+      "online_max_usp_3_NL_BE",
+      "hero_image",
+      "media_assets_instance_record_1",
+      "media_assets_instance_record_2",
+      "media_assets_instance_record_3",
+      "media_assets_instance_record_4",
+      "media_assets_instance_record_5"
+    ],
+    "excluded_attributes": [
+      "product-id",
+      "product-id-type",
+      "quantity",
+      "leadtime-to-ship",
+      "description",
+      "price",
+      "seller_product_id",
+      "state",
+      "media_assets_instance_record_6",
+      "media_assets_instance_record_7",
+      "media_assets_instance_record_8",
+      "media_assets_instance_record_9",
+      "online_max_usp_4_FR_BE",
+      "online_max_usp_4_NL_BE",
+      "online_max_usp_5_FR_BE",
+      "online_max_usp_5_NL_BE"
+    ],
+    "category_column": "online_hybris_category"
+  },
+  "BRICES": {
+    "required_attributes": [
+      "identifier_ean",
+      "name",
+      "advertising_descripcion_comercial-es_ES",
+      "mirakl_image_1",
+      "mirakl_image_2",
+      "mirakl_image_3",
+      "mirakl_image_4",
+      "mirakl_image_5",
+      "mirakl_image_6"
+    ],
+    "excluded_attributes": [
+      "product-id",
+      "product-id-type",
+      "quantity",
+      "leadtime-to-ship",
+      "description",
+      "price",
+      "seller_product_id",
+      "state"
+    ],
+    "category_column": "category"
+  },
+  "BRICPT": {
+    "required_attributes": [
+      "identifier_ean",
+      "name",
+      "name-pt_PT",
+      "advertising_descripcion_comercial-es_ES",
+      "advertising_descripcion_comercial-pt_PT",
+      "mirakl_image_1",
+      "mirakl_image_2",
+      "mirakl_image_3",
+      "mirakl_image_4",
+      "mirakl_image_5",
+      "mirakl_image_6"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "CASTFR": {
+    "required_attributes": [
+      "ean",
+      "name",
+      "Body Copy",
+      "image_main_1",
+      "image_secondary_1",
+      "image_secondary_2",
+      "image_secondary_3",
+      "image_secondary_4",
+      "image_secondary_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "CDONSE": {
+    "required_attributes": [
+      "gtin",
+      "title_se",
+      "description_se",
+      "main_image",
+      "images"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "DARTFR": {
+    "required_attributes": [
+      "EANs/EAN",
+      "DisplayName_fr_FR",
+      "Description_fr_FR",
+      "AdditionalDescription_fr_FR",
+      "IMAGE|1505-1",
+      "IMAGE|3-1",
+      "IMAGE|3-2",
+      "IMAGE|3-3"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "DIVILV": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "EMPIPL": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "FNACFR": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "FRUGUK": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "FYNDDK": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "FYNDFI": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "FYNDSE": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "HOBBFI": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "JOOMFR": {
+    "required_attributes": [
+      "EAN",
+      "Title",
+      "Desc",
+      "MainImage",
+      "ExtraImages"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "KAUPEE": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "KIABFR": {
+    "required_attributes": [
+      "ean",
+      "title_FRA",
+      "long_description_FRA",
+      "media_url_1",
+      "media_url_2",
+      "media_url_3",
+      "media_url_4",
+      "media_url_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "KINGGB": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "LBCOFR": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "MANODE": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description",
+      "image_1",
+      "image_2",
+      "image_3",
+      "image_4",
+      "image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "MANOES": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description",
+      "image_1",
+      "image_2",
+      "image_3",
+      "image_4",
+      "image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "MANOFR": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description",
+      "image_1",
+      "image_2",
+      "image_3",
+      "image_4",
+      "image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "MANOIT": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description",
+      "image_1",
+      "image_2",
+      "image_3",
+      "image_4",
+      "image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "MANOUK": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description",
+      "image_1",
+      "image_2",
+      "image_3",
+      "image_4",
+      "image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUBE": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUDE": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUES": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUFI": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUFR": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUIT": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUNL": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUPT": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "ONBUUK": {
+    "required_attributes": [
+      "EAN",
+      "product_name",
+      "description",
+      "default_image",
+      "additional_image_1",
+      "additional_image_2",
+      "additional_image_3",
+      "additional_image_4",
+      "additional_image_5"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "PIGULT": {
+    "required_attributes": [
+      "ean",
+      "title",
+      "description",
+      "image_urls_1",
+      "image_urls_2",
+      "image_urls_3",
+      "image_urls_4",
+      "image_urls_5",
+      "image_urls_6"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "PRAXNL": {
+    "required_attributes": [
+      "core_gtin",
+      "proddesc_online_product_name_NL_NL",
+      "proddesc_online_product_name_mirakl",
+      "proddesc_online_body_text_NL_NL",
+      "proddesc_online_body_text_mirakl",
+      "online_max_usp_1_NL_NL",
+      "online_max_usp_2_NL_NL",
+      "online_max_usp_3_NL_NL",
+      "hero_image",
+      "media_assets_instance_record_1",
+      "media_assets_instance_record_2",
+      "media_assets_instance_record_3",
+      "media_assets_instance_record_4",
+      "media_assets_instance_record_5"
+    ],
+    "excluded_attributes": [
+      "product-id",
+      "product-id-type",
+      "quantity",
+      "leadtime-to-ship",
+      "description",
+      "price",
+      "seller_product_id",
+      "state"
+    ],
+    "category_column": "online_hybris_category"
+  },
+  "RAKUFR": {
+    "required_attributes": [
+      "codebarres",
+      "titre",
+      "prdEdito",
+      "image_url"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "RDCOFR": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "SKROGR": {
+    "required_attributes": [],
+    "excluded_attributes": [],
+    "category_column": null
+  },
+  "WORTPT": {
+    "required_attributes": [
+      "ean",
+      "product_name_pt_PT",
+      "product_description_pt_PT",
+      "image1",
+      "image2",
+      "image3",
+      "image4",
+      "image5",
+      "image6"
+    ],
+    "excluded_attributes": [],
+    "category_column": null
+  }
+}

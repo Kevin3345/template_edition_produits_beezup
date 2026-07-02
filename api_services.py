@@ -274,6 +274,53 @@ def _is_selected_category(selected_path: str, full_path: Optional[str], origin_n
 
 
 @st.cache_data(ttl=1800, show_spinner=False)
+def get_all_channel_category_attributes(_client, catalog_id: str) -> Optional[pd.DataFrame]:
+    """
+    Récupère les attributs de TOUTES les catégories du catalogue, avec leur
+    channelCategoryCode. Utilisé par la génération par SKUs : la jointure
+    produit → catégorie se fait par code (colonne catégorie de l'export),
+    ce qui évite le problème des channelFullCategoryPath tronqués.
+
+    Colonnes retournées : Source (Cross Categories/Category), Category Code,
+    Channel Category Path + les champs attribut habituels.
+    """
+    response = _client.get(f"v2/user/channelCatalogs/{catalog_id}/attributes")
+
+    if not response:
+        raise ConnectionError(f"Impossible d'extraire les attributs (catalog_id={catalog_id}).")
+
+    data = []
+
+    for category in response:
+        channel_full_category_path = category.get("channelFullCategoryPath")
+        is_cross = channel_full_category_path == "Cross Categories"
+
+        for attribute in category.get("attributes", []):
+            data.append({
+                "Source": "Cross Categories" if is_cross else "Category",
+                "Category Code": None if is_cross else category.get("channelCategoryCode"),
+                "Channel Category Path": channel_full_category_path,
+                "Channel Attribute Id": attribute.get("channelAttributeId"),
+                "Attribute Name": attribute.get("attributeName"),
+                "Attribute Code": attribute.get("attributeCode"),
+                "Attribute Description": attribute.get("attributeDescription"),
+                "Status": attribute.get("status"),
+                "Type Value": attribute.get("typeValue"),
+                "Attribute Value List Code": attribute.get("attributeValueListCode"),
+                "Default Value": attribute.get("defaultValue")
+            })
+
+    df = pd.DataFrame(data)
+    nb_categories = df["Category Code"].nunique() if not df.empty else 0
+    logger.info(
+        f"Attributs toutes catégories extraits : {len(df)} attributs, "
+        f"{nb_categories} catégories (catalog_id={catalog_id})."
+    )
+
+    return df
+
+
+@st.cache_data(ttl=1800, show_spinner=False)
 def get_column_mapping_dict(_client, catalog_id: str) -> dict:
     """
     Récupère le mapping attributs entre le catalogue vendeur et le canal de vente.
@@ -307,11 +354,13 @@ def get_column_mapping_dict(_client, catalog_id: str) -> dict:
 def get_product_ids(
         client,
         catalog_id: str,
-        selected_channel_path: str,
+        selected_channel_path: str = None,
         skus_list: list = None
 ) -> Optional[pd.DataFrame]:
     """
-    Récupère les Product Id et les SKU présents dans le catalogue pour une catégorie donnée.
+    Récupère les Product Id et les SKU présents dans le catalogue.
+    Filtre par catégorie si selected_channel_path est fourni (génération par
+    catégorie), sinon interroge tout le catalogue (génération par SKUs).
     Gère automatiquement la pagination (pageSize = 1000).
     """
     endpoint = f"v2/user/channelCatalogs/{catalog_id}/products"
@@ -328,11 +377,13 @@ def get_product_ids(
                 "uncategorized": False,
                 "excluded": False,
                 "disabled": False
-            },
-            "channelCategoryFilter": {
-                "categoryPath": selected_channel_path.split(" > ")
             }
         }
+
+        if selected_channel_path:
+            payload["channelCategoryFilter"] = {
+                "categoryPath": selected_channel_path.split(" > ")
+            }
 
         if skus_list:
             payload["productFilters"] = {"channelSkus": skus_list}
@@ -360,11 +411,13 @@ def get_product_ids(
 
         page_number += 1
 
+    scope = f"la catégorie '{selected_channel_path}'" if selected_channel_path else "les SKUs demandés"
+
     if not data:
-        raise ValueError(f"Aucun produit trouvé pour la catégorie '{selected_channel_path}'.")
+        raise ValueError(f"Aucun produit trouvé pour {scope}.")
 
     df = pd.DataFrame(data)
-    logger.info(f"{len(df)} produits extraits pour '{selected_channel_path}' (catalog_id={catalog_id}).")
+    logger.info(f"{len(df)} produits extraits pour {scope} (catalog_id={catalog_id}).")
 
     return df
 
