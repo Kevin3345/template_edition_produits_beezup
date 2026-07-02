@@ -239,6 +239,50 @@ class TestComputeDiff:
 
 
 # ---------------------------------------------------------------------------
+# format_final_template — collisions de colonnes
+# ---------------------------------------------------------------------------
+
+class TestFormatFinalTemplate:
+    def test_sku_attribute_does_not_duplicate_fixed_column(self):
+        # L'attribut de code "sku" (fréquent chez Mirakl) ne doit pas créer une
+        # seconde colonne "SKU" à côté de la colonne fixe de référence
+        df_merged = pd.DataFrame([{"Product Id": "p1", "sku": "S1", "color": "rouge"}])
+        df_sel = pd.DataFrame([
+            {"Attribute Name": "SKU", "Attribute Code": "sku",
+             "Status": "Required", "Label": "SKU | uuid-sku"},
+            {"Attribute Name": "Couleur", "Attribute Code": "color",
+             "Status": "Required", "Label": "Couleur | uuid-c"},
+        ])
+        code_to_label = {"sku": "SKU | uuid-sku", "color": "Couleur | uuid-c"}
+
+        df = proc.format_final_template(
+            df_merged, df_sel, "cat-1", "A > B", code_to_label, obl_codes=["sku"]
+        )
+
+        assert not df.columns.duplicated().any()
+        assert list(df.columns).count("SKU") == 1
+        assert "Couleur | uuid-c" in df.columns
+
+    def test_same_code_under_two_labels_yields_single_column(self):
+        # Un même code peut exister sous deux labels (attribut canal + catégorie)
+        df_merged = pd.DataFrame([{"Product Id": "p1", "sku": "S1", "color": "rouge"}])
+        df_sel = pd.DataFrame([
+            {"Attribute Name": "Couleur", "Attribute Code": "color",
+             "Status": "Required", "Label": "Couleur | uuid-1"},
+            {"Attribute Name": "Couleur", "Attribute Code": "color",
+             "Status": "Optional", "Label": "Couleur | uuid-2"},
+        ])
+        code_to_label = {"color": "Couleur | uuid-1"}
+
+        df = proc.format_final_template(
+            df_merged, df_sel, "cat-1", "A > B", code_to_label, obl_codes=[]
+        )
+
+        assert not df.columns.duplicated().any()
+        assert list(df.columns).count("Couleur | uuid-1") == 1
+
+
+# ---------------------------------------------------------------------------
 # normalize_export_data (colonne EAN à l'index 4)
 # ---------------------------------------------------------------------------
 

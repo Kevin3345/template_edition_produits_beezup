@@ -239,6 +239,22 @@ def format_final_template(
     df.insert(loc=idx + 1, column="Catalog Id", value=catalog_id)
     df.insert(loc=idx + 2, column="Channel Category Path", value=selected_path)
 
+    # Le SKU est déjà une colonne fixe du template (référence produit) : un attribut
+    # de code "sku" (fréquent chez Mirakl, statut Required) créerait une colonne
+    # "SKU" dupliquée après renommage. On l'écarte des attributs — la colonne fixe
+    # porte déjà la donnée.
+    is_sku_attr = (
+        df_selected_attributes["Attribute Code"].astype(str).str.strip().str.lower() == "sku"
+    )
+    if is_sku_attr.any():
+        logger.debug(
+            f"format_final_template : attribut de code 'sku' écarté "
+            f"({int(is_sku_attr.sum())} entrée(s)) — déjà présent comme colonne fixe."
+        )
+        df_selected_attributes = df_selected_attributes[~is_sku_attr]
+
+    obl_codes = [c for c in obl_codes if str(c).strip().lower() != "sku"]
+
     def get_sorted_codes(status):
         subset = df_selected_attributes[df_selected_attributes["Status"] == status]
         return subset.sort_values(by="Attribute Name")["Attribute Code"].tolist()
@@ -252,7 +268,9 @@ def format_final_template(
     opt_codes = [c for c in opt_codes_all if c not in obl_codes and c not in req_codes and c not in rec_codes]
 
     first_cols = ["Product Id", "Catalog Id", "Channel Category Path", "sku"]
-    ordered_attribute_cols = obl_codes + req_codes + rec_codes + opt_codes
+    # dict.fromkeys : dédoublonne en préservant l'ordre (un même code peut apparaître
+    # sous deux labels — ex. attribut canal ET attribut catégorie de même code)
+    ordered_attribute_cols = list(dict.fromkeys(obl_codes + req_codes + rec_codes + opt_codes))
 
     for code in obl_codes:
         if code not in df.columns:
