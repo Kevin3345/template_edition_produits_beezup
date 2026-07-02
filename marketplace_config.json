@@ -8,12 +8,6 @@
       "proddesc_online_body_text_FR_BE",
       "proddesc_online_body_text_NL_BE",
       "proddesc_online_body_text_mirakl",
-      "online_max_usp_1_FR_BE",
-      "online_max_usp_1_NL_BE",
-      "online_max_usp_2_FR_BE",
-      "online_max_usp_2_NL_BE",
-      "online_max_usp_3_FR_BE",
-      "online_max_usp_3_NL_BE",
       "hero_image",
       "media_assets_instance_record_1",
       "media_assets_instance_record_2",
@@ -79,8 +73,17 @@
       "mirakl_image_5",
       "mirakl_image_6"
     ],
-    "excluded_attributes": [],
-    "category_column": null
+   "excluded_attributes": [
+      "product-id",
+      "product-id-type",
+      "quantity",
+      "leadtime-to-ship",
+      "description",
+      "price",
+      "seller_product_id",
+      "state"
+    ],
+    "category_column": "category"
   },
   "CASTFR": {
     "required_attributes": [
