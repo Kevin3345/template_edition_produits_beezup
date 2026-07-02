@@ -1,0 +1,19 @@
+[project]
+name = "shadbeez"
+version = "3.1.0"
+description = "Application Streamlit interne : génération et réintégration de templates produits via l'API BeezUP"
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit==1.57.0",
+    "pandas==2.3.3",
+    "requests==2.34.2",
+    "openpyxl==3.1.5",
+    "xlsxwriter==3.2.9",
+    "loguru==0.7.3",
+    "truststore==0.10.4",
+    "tenacity==9.1.4",
+]
+
+[tool.uv]
+# Application (pas un package installable) : uv ne tente pas de builder le projet
+package = false

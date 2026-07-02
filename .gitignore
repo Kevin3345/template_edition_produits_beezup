@@ -1,0 +1,24 @@
+# Environnement Python (reconstruit avec `uv sync`)
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Secrets — ne JAMAIS committer (tokens, credentials)
+.env
+.env.*
+.env.txt
+.streamlit/secrets.toml
+
+# Configuration locale Claude Code
+.claude/settings.local.json
+
+# Logs (contiennent les URLs d'export avec catalog_id)
+log.txt
+log.txt.*
+*.log
+
+# Fichiers verrous Excel
+~$*.xlsx
