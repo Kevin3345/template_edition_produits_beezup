@@ -271,7 +271,7 @@ Manage app → Logs.
 
 ## Environnement
 
-- Dépôt GitHub (privé) : https://github.com/merchantshadowbdx/shadbeez-edition-produits-v3.2
+- Dépôt GitHub (privé) : https://github.com/merchantshadowbdx/shadbeez-edition-produits
 - Python 3.13, géré par **uv** (`pyproject.toml` + `uv.lock`)
 - **Certificats SSL** : `truststore.inject_into_ssl()` est appelé en tout début
   d'`app.py`, avant tout import réseau. Les certificats sont validés via le magasin
