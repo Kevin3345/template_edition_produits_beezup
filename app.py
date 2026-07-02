@@ -61,7 +61,12 @@ def main():
             unsafe_allow_html=True
         )
 
-        st.space("xxsmall")
+        st.space("small")
+
+        # --- Sélection de la boutique (état de session, partagé par les onglets) ---
+        settings_view.render()
+
+        st.space("small")
 
         st.html("<style>.st-key-reset { box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5); }</style>")
         if st.button("Réinitialiser", type="secondary", width="stretch", key="reset",
@@ -91,11 +96,6 @@ def main():
         st.space("small")
         st.caption("Fait avec 💕 par ShadBeez")
 
-    # --- S\u00E9lection de la boutique (commune aux deux workflows de g\u00E9n\u00E9ration) ---
-    settings_view.render()
-
-    st.space("small")
-
     # --- Onglets principaux ---
     tab1, tab2, tab3 = st.tabs([
         "G\u00C9N\u00C9RER PAR CAT\u00C9GORIE",
@@ -119,7 +119,7 @@ def main():
                     st.space("small")
                     export_view.render(full_path_str, sku_list, df_attr)
         else:
-            st.info("S\u00E9lectionnez une boutique pour commencer.")
+            st.info("S\u00E9lectionnez une boutique dans la barre lat\u00E9rale pour commencer.")
 
     with tab2:
         st.space("small")

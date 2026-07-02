@@ -26,7 +26,7 @@ def render():
         st.subheader("🧾 Génération par liste de SKUs")
 
         if not st.session_state.get("catalog_id"):
-            st.info("Sélectionnez d'abord une boutique ci-dessus.")
+            st.info("Sélectionnez d'abord une boutique dans la barre latérale.")
             return
 
         config = get_channel_config(st.session_state.store_name)

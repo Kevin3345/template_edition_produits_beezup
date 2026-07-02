@@ -5,20 +5,24 @@ from logger_utils import get_log_context
 
 
 def render():
-    """Gère la saisie du Catalog ID et affiche les infos de la boutique sélectionnée."""
+    """
+    Gère la saisie du Catalog ID et affiche la boutique sélectionnée.
+    Rendu dans la sidebar : la boutique est un état de session, partagé
+    par les onglets de génération.
+    """
 
     logger = get_log_context()
 
     st.html("<style>.st-key-settings_container { box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5); }</style>")
 
     with st.container(border=True, gap="medium", key="settings_container"):
-        st.subheader("🛍️ Sélection de la boutique")
+        st.markdown("**🛍️ Boutique**")
 
         # Cas 1 : Catalog ID pas encore renseigné → formulaire de saisie
         if not st.session_state.get("catalog_id"):
             catalog_input = st.text_input("Saisissez le Channel Catalog ID :", key="input_catalog_id")
 
-            if st.button("Valider", type="primary", width=200, key="store_selection", icon=":material/check:"):
+            if st.button("Valider", type="primary", width="stretch", key="store_selection", icon=":material/check:"):
                 catalog_id = catalog_input.strip()
 
                 if not catalog_id:
@@ -54,4 +58,5 @@ def render():
 
         # Cas 2 : Catalogue déjà chargé → affichage du résumé
         else:
-            st.write(f"Boutique BeezUP sélectionnée : :orange[{st.session_state.store_name}]")
+            st.write(f":orange[{st.session_state.store_name}]")
+            st.caption(st.session_state.catalog_id)

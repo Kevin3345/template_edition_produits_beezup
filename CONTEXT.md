@@ -44,7 +44,7 @@ marketplace_config.json # Par canal (clé = suffixe store_name) : required_attri
 views/
   __init__.py           # Vide — nécessaire pour que 'views' soit un package
   login_view.py
-  settings_view.py      # Rendu UNE fois au-dessus des onglets (boutique commune)
+  settings_view.py      # Rendu dans la SIDEBAR (la boutique est un état de session)
   category_view.py
   attributes_view.py
   export_view.py        # Génération par catégorie
