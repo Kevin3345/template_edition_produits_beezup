@@ -19,7 +19,7 @@ def render():
 
         with st.container(key="login_container"):
             with st.form(key="login_form"):
-                st.subheader(":honeybee: :grey[ShadBeez \u22EE] :orange[\u0190dition \u00FEroduits v\u01B7\u00B9]")
+                st.subheader(":honeybee: :grey[ShadBeez \u22EE] :orange[\u0190dition \u00FEroduits v\u01B7\u00B2]")
                 st.space("xxsmall")
 
                 email = st.text_input("Email")
