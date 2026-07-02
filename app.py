@@ -31,7 +31,7 @@ from views import (
 
 # Configuration de la page
 st.set_page_config(
-    page_title="ShadBeez \u22EE \u0190dition \u00FEroduits v\u01B7\u00B9",
+    page_title="ShadBeez \u22EE \u0190dition \u00FEroduits v\u0427",
     layout="wide",
     page_icon="🐝"
 )

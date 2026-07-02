@@ -1,4 +1,4 @@
-# CONTEXT.md — ShadBeez Édition Produits v3
+# CONTEXT.md — ShadBeez Édition Produits v4
 
 Contexte technique et décisions d'architecture pour ce projet. À lire avant toute
 modification, notamment pour comprendre les contournements liés à l'API BeezUP qui
