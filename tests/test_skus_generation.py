@@ -1,3 +1,6 @@
+import json
+from pathlib import Path
+
 import pandas as pd
 import pytest
 
@@ -8,6 +11,23 @@ from marketplace_config import get_channel_config
 # ---------------------------------------------------------------------------
 # marketplace_config
 # ---------------------------------------------------------------------------
+
+def test_marketplace_config_file_is_valid():
+    """Le fichier est édité à la main : ce test attrape les virgules finales,
+    crochets manquants et structures incomplètes avant tout push."""
+    config_path = Path(__file__).parent.parent / "marketplace_config.json"
+    data = json.loads(config_path.read_text(encoding="utf-8"))
+
+    assert isinstance(data, dict) and data, "Le fichier doit contenir au moins un canal."
+
+    for channel, conf in data.items():
+        assert isinstance(conf, dict), f"{channel} : l'entrée doit être un objet."
+        assert isinstance(conf.get("required_attributes"), list), \
+            f"{channel} : required_attributes doit être une liste."
+        assert isinstance(conf.get("excluded_attributes"), list), \
+            f"{channel} : excluded_attributes doit être une liste."
+        assert conf.get("category_column") is None or isinstance(conf["category_column"], str), \
+            f"{channel} : category_column doit être une chaîne ou null."
 
 class TestGetChannelConfig:
     def test_known_channel_with_category_column(self):

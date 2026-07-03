@@ -291,9 +291,9 @@
       "taxerate-fr",
       "taxerate-it",
       "taxerate-pt",
-      "update-delete",
+      "update-delete"
     ],
-    "category_column": "category",
+    "category_column": "category"
   },
   "KINGGB": {
     "required_attributes": [],

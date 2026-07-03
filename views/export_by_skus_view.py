@@ -29,7 +29,11 @@ def render():
             st.info("Sélectionnez d'abord une boutique dans la barre latérale.")
             return
 
-        config = get_channel_config(st.session_state.store_name)
+        try:
+            config = get_channel_config(st.session_state.store_name)
+        except ValueError as e:
+            st.error(str(e))
+            return
 
         if not config["category_column"]:
             st.warning(

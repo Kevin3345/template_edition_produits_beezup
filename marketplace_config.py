@@ -17,8 +17,16 @@ def get_channel_config(store_name: str) -> dict:
                              ou None si la marketplace n'en expose pas (la
                              génération par SKUs n'est alors pas disponible)
     """
-    with open(_CONFIG_PATH, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    try:
+        with open(_CONFIG_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except json.JSONDecodeError as e:
+        # Fichier édité à la main : une virgule finale ou un crochet manquant
+        # doit produire un message actionnable, pas une stacktrace brute
+        raise ValueError(
+            f"marketplace_config.json est mal formé (ligne {e.lineno}, colonne {e.colno}) : "
+            f"{e.msg}. Vérifiez les virgules finales et les crochets."
+        ) from e
 
     sales_channel = store_name.split("_")[-1]
     conf = data.get(sales_channel) or {}
