@@ -16,7 +16,10 @@ autour de l'intégrateur de flux **BeezUP** :
    La sélection d'attributs se fait par **statut uniquement** (Required/Recommended/
    Optional) — la notion de Source (Channel/Cross/Category) reste interne. Les
    `excluded_attributes` du canal sont filtrés en amont, invisibles même en sélection
-   manuelle (interdit = interdit).
+   manuelle (interdit = interdit). L'attribut `sku` n'est **jamais** proposé, quel que
+   soit le canal (identifiant produit, non éditable — règle codée en dur, doublée par
+   son écartement systématique dans `format_final_template`). Le workflow par
+   attributs (mode expert) expose lui le référentiel complet, `sku` compris.
 2. **Génération par SKUs** : l'utilisateur colle une liste de SKUs (toutes catégories
    confondues) ; l'app regroupe les produits par catégorie via la **colonne catégorie de
    l'export BeezUP** (jointure par `channelCategoryCode`, pas par chemin — immunisé

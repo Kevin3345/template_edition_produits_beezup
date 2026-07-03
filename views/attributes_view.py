@@ -150,6 +150,14 @@ def _load_attributes(
     # Dédoublonnage + colonne Label
     df_clean = proc.dedupe_keep_most_restrictive(df_concat)
 
+    # Le SKU identifie le produit : jamais proposé à l'édition, quel que soit le
+    # canal (il serait de toute façon écarté par format_final_template — ceci
+    # évite juste de le montrer). Le workflow par attributs, mode expert,
+    # continue lui d'exposer tout le référentiel.
+    df_clean = df_clean[
+        df_clean["Attribute Code"].astype(str).str.strip().str.lower() != "sku"
+    ].reset_index(drop=True)
+
     # Attributs interdits pour ce canal : filtrés avant tout affichage
     # (invisibles aussi dans la sélection manuelle — interdit = interdit)
     channel_config = get_channel_config(store_name)
