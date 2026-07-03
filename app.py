@@ -108,20 +108,17 @@ def main():
     with tab1:
         st.space("small")
 
-        if st.session_state.catalog_id:
-            category_data = category_view.render()
+        category_data = category_view.render()
 
-            if category_data:
-                full_path_str, sku_list = category_data
+        if category_data:
+            full_path_str, sku_list = category_data
+            st.space("small")
+
+            df_attr = attributes_view.render(full_path_str)
+
+            if df_attr is not None:
                 st.space("small")
-
-                df_attr = attributes_view.render(full_path_str)
-
-                if df_attr is not None:
-                    st.space("small")
-                    export_view.render(full_path_str, sku_list, df_attr)
-        else:
-            st.info("S\u00E9lectionnez une boutique dans la barre lat\u00E9rale pour commencer.")
+                export_view.render(full_path_str, sku_list, df_attr)
 
     with tab2:
         st.space("small")

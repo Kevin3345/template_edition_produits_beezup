@@ -15,6 +15,10 @@ def render():
     with st.container(border=True, gap="medium", key="category_container"):
         st.subheader("🔖 Sélection de la catégorie")
 
+        if not st.session_state.get("catalog_id"):
+            st.info("Sélectionnez d'abord une boutique dans la barre latérale.")
+            return None
+
         # 1. Chargement des catégories si nécessaire (premier rendu ou changement de catalogue)
         current_catalog = st.session_state.get("catalog_id")
         last_catalog = st.session_state.get("last_catalog_id")
