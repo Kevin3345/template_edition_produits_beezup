@@ -22,3 +22,6 @@ log.txt.*
 
 # Fichiers verrous Excel
 ~$*.xlsx
+
+# Documentation de référence locale (non nécessaire au dépôt)
+swagger.json
