@@ -39,9 +39,18 @@ class TestGetChannelConfig:
         assert "product-id" in config["excluded_attributes"]
 
     def test_known_channel_without_category_column(self):
-        config = get_channel_config("Boutique_CULTFR")
+        # Exemple choisi dynamiquement : tout canal codé en dur finit par être
+        # configuré (CULTFR l'a été) et casserait ce test à tort
+        config_path = Path(__file__).parent.parent / "marketplace_config.json"
+        data = json.loads(config_path.read_text(encoding="utf-8"))
+        channel = next((k for k, v in data.items() if v.get("category_column") is None), None)
 
-        # Canal inconnu ou sans category_column → génération par SKUs indisponible
+        if channel is None:
+            pytest.skip("Tous les canaux ont désormais une category_column configurée.")
+
+        config = get_channel_config(f"Boutique_{channel}")
+
+        # Canal sans category_column → génération par SKUs indisponible
         assert config["category_column"] is None
 
     def test_unknown_channel_returns_empty_lists(self):
