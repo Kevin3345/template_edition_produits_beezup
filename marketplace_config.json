@@ -583,8 +583,23 @@
       "image_urls_5",
       "image_urls_6"
     ],
-    "excluded_attributes": [],
-    "category_column": null
+    "excluded_attributes": [
+      "amount",
+      "amount_ee",
+      "amount_fi",
+      "category_id",
+      "delivery_hours",
+      "delivery_hours_ee",
+      "delivery_hours_fi",
+      "sell_price",
+      "sell_price_after_discount",
+      "sell_price_after_discount_ee",
+      "sell_price_after_discount_fi",
+      "sell_price_ee",
+      "sell_price_fi",
+      "sku"
+    ],
+    "category_column": "category_id"
   },
   "PRAXNL": {
     "required_attributes": [
