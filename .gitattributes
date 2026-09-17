@@ -1,0 +1,12 @@
+# Normalise les fins de ligne : tout est stocké en LF dans le repo,
+# quel que soit l'OS ou l'éditeur utilisé pour committer.
+* text=auto eol=lf
+
+# Binaires explicites (pas de conversion, pas de diff textuel)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.xlsx binary
+*.zip binary
