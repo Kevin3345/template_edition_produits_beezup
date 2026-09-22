@@ -274,11 +274,12 @@ Manage app → Logs.
 
 ## Environnement
 
-- Dépôt GitHub (privé) : https://github.com/merchantshadowbdx/shadbeez-edition-produits
+- Dépôt GitHub (privé) : https://github.com/Kevin3345/template_edition_produits_beezup
 - App déployée (Streamlit Community Cloud, privée, accès par invitation email) :
-  https://shadbeez-edition-pr0duits.streamlit.app — attention au `0` de `pr0duits` :
-  l'ancien sous-domaine est resté verrouillé après un delete/recreate trop rapide.
-  Ne jamais supprimer/recréer l'app en réutilisant immédiatement le même sous-domaine.
+  https://template-edition-pr0duits-beezup.streamlit.app — attention au `0` de
+  `pr0duits` : un ancien sous-domaine est resté verrouillé après un delete/recreate
+  trop rapide. Ne jamais supprimer/recréer l'app en réutilisant immédiatement le
+  même sous-domaine.
 - Python 3.13, géré par **uv** (`pyproject.toml` + `uv.lock`)
 - **Certificats SSL** : `truststore.inject_into_ssl()` est appelé en tout début
   d'`app.py`, avant tout import réseau. Les certificats sont validés via le magasin
