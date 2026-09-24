@@ -572,14 +572,7 @@
     "category_column": null
   },
   "PCCOFR": {
-    "required_attributes": [
-      "EAN",
-      "MPN",
-      "Nombre",
-      "Descripción",
-      "Imagen Principal",
-      "Marca"
-    ],
+    "required_attributes": [],
     "excluded_attributes": [
       "price",
       "product-id-type",
