@@ -27,6 +27,24 @@ uv run pytest                  # lance les tests
 
 La connexion se fait avec des identifiants BeezUP (email / mot de passe).
 
+## Publier une modification
+
+`git push` n'envoie que ce qui est **committé** : un fichier simplement
+enregistré reste en local et l'app déployée ne le voit pas.
+
+```
+uv run pytest                      # 1. vérifie que rien n'est cassé
+git add marketplace_config.json    # 2. prépare le(s) fichier(s) modifié(s)
+git commit -m "Message en français à l'impératif"   # 3. enregistre la modif
+git push origin main               # 4. envoie sur GitHub → redéploiement auto
+```
+
+Vérifier avec `git status` avant le push :
+
+- fichier listé avec `M` → pas encore committé ;
+- « Your branch is ahead of 'origin/main' by 1 commit » → prêt à pousser ;
+- push qui répond « Everything up-to-date » → rien n'a été envoyé.
+
 ## Architecture
 
 ```
