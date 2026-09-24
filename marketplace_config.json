@@ -98,7 +98,7 @@
       "image_secondary_5"
     ],
     "excluded_attributes": [],
-    "category_column": null
+    "category_column": "category"
   },
   "CDONSE": {
     "required_attributes": [
@@ -109,7 +109,7 @@
       "images"
     ],
     "excluded_attributes": [],
-    "category_column": null
+    "category_column": "category"
   },
   "CULTFR": {
     "required_attributes": [
@@ -243,7 +243,7 @@
       "ExtraImages"
     ],
     "excluded_attributes": [],
-    "category_column": null
+    "category_column": "CategoryID"
   },
   "KAUPEE": {
     "required_attributes": [
