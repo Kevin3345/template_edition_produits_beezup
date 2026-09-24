@@ -97,7 +97,12 @@
       "image_secondary_4",
       "image_secondary_5"
     ],
-    "excluded_attributes": [],
+    "excluded_attributes": [
+      "price",
+      "product-id",
+      "shop_sku",
+      "state"
+    ],
     "category_column": "category"
   },
   "CDONSE": {
