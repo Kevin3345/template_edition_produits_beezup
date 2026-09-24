@@ -571,6 +571,23 @@
     "excluded_attributes": [],
     "category_column": null
   },
+  "PCCOFR": {
+    "required_attributes": [
+      "EAN",
+      "MPN",
+      "Nombre",
+      "Descripción",
+      "Imagen Principal",
+      "Marca"
+    ],
+    "excluded_attributes": [
+      "price",
+      "product-id-type",
+      "shopSKU",
+      "state"
+    ],
+    "category_column": "category"
+  },
   "PIGULT": {
     "required_attributes": [
       "ean",
