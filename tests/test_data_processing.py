@@ -123,7 +123,26 @@ def test_merge_export_data_raises_when_no_match():
     df_ids = pd.DataFrame([{"Product Id": "p1", "sku": "S1"}])
     df_values = pd.DataFrame([{"sku": "AUTRE", "color": "x"}])
 
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="AUTRE"):
+        proc.merge_export_data(df_ids, df_values)
+
+
+def test_merge_export_data_tolerates_numeric_skus_in_export():
+    # Export CSV aux SKUs numériques : pandas les lit en int ou en float (si trous)
+    df_ids = pd.DataFrame([{"Product Id": "p1", "sku": "12345"}, {"Product Id": "p2", "sku": " 678 "}])
+    df_values = pd.DataFrame({"sku": [12345.0, 678.0, None], "color": ["rouge", "bleu", "vert"]})
+
+    result = proc.merge_export_data(df_ids, df_values)
+
+    assert result["Product Id"].tolist() == ["p1", "p2"]
+    assert result["sku"].tolist() == ["12345", " 678 "]
+
+
+def test_merge_export_data_ignores_empty_skus():
+    df_ids = pd.DataFrame([{"Product Id": "p1", "sku": None}])
+    df_values = pd.DataFrame([{"sku": None, "color": "x"}])
+
+    with pytest.raises(ValueError, match="colonne sku vide"):
         proc.merge_export_data(df_ids, df_values)
 
 
