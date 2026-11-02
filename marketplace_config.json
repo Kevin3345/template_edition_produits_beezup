@@ -677,7 +677,10 @@
       "image5",
       "image6"
     ],
-    "excluded_attributes": [],
-    "category_column": null
+    "excluded_attributes": [
+		"quantity",
+		"state"
+	],
+    "category_column": "mp_category"
   }
 }
