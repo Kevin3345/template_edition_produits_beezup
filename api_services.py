@@ -11,6 +11,14 @@ from loguru import logger
 # Caractères invisibles parfois présents en tête/queue d'export (BOM, zero-width spaces...)
 _INVISIBLE_CHARS = "\ufeff\u200b\u200c\u200d\u00a0"
 
+# Colonnes des DataFrames issus de la route /attributes, explicites pour que
+# le DataFrame reste exploitable même quand le canal n'a aucun attribut par catégorie
+_CATEGORY_ATTRIBUTE_COLUMNS = [
+    "Source", "Channel Category Path", "Channel Attribute Id", "Attribute Name",
+    "Attribute Code", "Attribute Description", "Status", "Type Value",
+    "Attribute Value List Code", "Default Value"
+]
+
 
 def get_user_identity(client) -> dict[str, str]:
     """
@@ -198,7 +206,9 @@ def get_channel_category_attributes(client, catalog_id: str, selected_channel_pa
     """
     response = client.get(f"v2/user/channelCatalogs/{catalog_id}/attributes")
 
-    if not response:
+    # Une liste vide est une réponse valide : certains canaux (ex. CDON) n'ont
+    # aucun attribut par catégorie, seulement des attributs canal.
+    if not isinstance(response, list):
         raise ConnectionError(f"Impossible d'extraire les attributs de la catégorie (catalog_id={catalog_id}).")
 
     data = []
@@ -241,7 +251,7 @@ def get_channel_category_attributes(client, catalog_id: str, selected_channel_pa
             f"'{selected_channel_path}' (catalog_id={catalog_id})."
         )
 
-    df = pd.DataFrame(data)
+    df = pd.DataFrame(data, columns=_CATEGORY_ATTRIBUTE_COLUMNS)
     logger.info(
         f"Attributs catégorie extraits : {len(df)} attributs "
         f"pour '{selected_channel_path}' (catalog_id={catalog_id})."
@@ -286,7 +296,8 @@ def get_all_channel_category_attributes(_client, catalog_id: str) -> Optional[pd
     """
     response = _client.get(f"v2/user/channelCatalogs/{catalog_id}/attributes")
 
-    if not response:
+    # Liste vide valide : canal sans attributs par catégorie (voir get_channel_category_attributes)
+    if not isinstance(response, list):
         raise ConnectionError(f"Impossible d'extraire les attributs (catalog_id={catalog_id}).")
 
     data = []
@@ -310,7 +321,7 @@ def get_all_channel_category_attributes(_client, catalog_id: str) -> Optional[pd
                 "Default Value": attribute.get("defaultValue")
             })
 
-    df = pd.DataFrame(data)
+    df = pd.DataFrame(data, columns=["Source", "Category Code", *_CATEGORY_ATTRIBUTE_COLUMNS[1:]])
     nb_categories = df["Category Code"].nunique() if not df.empty else 0
     logger.info(
         f"Attributs toutes catégories extraits : {len(df)} attributs, "
