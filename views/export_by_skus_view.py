@@ -120,9 +120,11 @@ def _generate_templates(logger, config, catalog_id, skus_list, selected_statuses
                 )
                 return None
 
-            export_skus = set(df_values["sku"].astype(str))
-            missing_skus = [s for s in skus_list if s not in export_skus]
-            found_skus = [s for s in skus_list if s in export_skus]
+            export_keys = df_values["sku"].apply(proc.sku_match_key)
+            # Comparaison insensible au format et à la casse (export CDON en minuscules)
+            export_key_set = set(export_keys)
+            missing_skus = [s for s in skus_list if proc.sku_match_key(s) not in export_key_set]
+            found_skus = [s for s in skus_list if proc.sku_match_key(s) in export_key_set]
 
             if missing_skus:
                 st.write(f"⚠️ {len(missing_skus)} SKU(s) absent(s) de l'export.")
@@ -132,7 +134,7 @@ def _generate_templates(logger, config, catalog_id, skus_list, selected_statuses
                 st.error("Aucun des SKUs saisis n'est présent dans l'export BeezUP.")
                 return None
 
-            df_values_filtered = df_values[df_values["sku"].astype(str).isin(found_skus)]
+            df_values_filtered = df_values[export_keys.isin({proc.sku_match_key(s) for s in found_skus})]
 
             # --- Product Ids et fusion ---
             st.write(f"🔗 Récupération des Product Ids ({len(found_skus)} SKUs)...")

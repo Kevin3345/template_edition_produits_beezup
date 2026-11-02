@@ -171,10 +171,12 @@ def dedupe_keep_most_restrictive(df: pd.DataFrame) -> pd.DataFrame:
     return df_dedup
 
 
-def _normalize_sku(val) -> str:
+def sku_match_key(val) -> str:
     """
-    Normalise un SKU pour la jointure : NaN → "", float entier (12345.0) → "12345",
-    espaces retirés. Contrairement à normalize_value, ne découpe pas sur " | ".
+    Clé de comparaison d'un SKU entre l'API et l'export BeezUP : NaN → "",
+    float entier (12345.0) → "12345", espaces retirés, insensible à la casse
+    (l'export CDON livre les SKUs en minuscules, l'API en majuscules).
+    Contrairement à normalize_value, ne découpe pas sur " | ".
     """
     if pd.isna(val):
         return ""
@@ -182,7 +184,7 @@ def _normalize_sku(val) -> str:
     if isinstance(val, float) and val.is_integer():
         val = int(val)
 
-    return str(val).strip()
+    return str(val).strip().casefold()
 
 
 def merge_export_data(df_ids: pd.DataFrame, df_values: pd.DataFrame) -> pd.DataFrame:
@@ -198,11 +200,11 @@ def merge_export_data(df_ids: pd.DataFrame, df_values: pd.DataFrame) -> pd.DataF
     if "Product Id" in df_values.columns:
         df_values = df_values.drop(columns=["Product Id"])
 
-    # Jointure sur une clé normalisée : l'export peut livrer un SKU numérique
-    # (12345 ou 12345.0) ou entouré d'espaces, là où l'API renvoie "12345".
+    # Jointure sur une clé normalisée (voir sku_match_key) : l'export peut livrer
+    # un SKU numérique, entouré d'espaces ou dans une autre casse que l'API.
     # Le "sku" conservé est celui de l'API.
-    ids_key = df_ids["sku"].apply(_normalize_sku)
-    values_key = df_values["sku"].apply(_normalize_sku)
+    ids_key = df_ids["sku"].apply(sku_match_key)
+    values_key = df_values["sku"].apply(sku_match_key)
     # Les SKUs vides sont écartés : ils se joindraient entre eux à tort
     df_merged = pd.merge(
         df_ids.assign(_sku_key=ids_key)[ids_key != ""],
@@ -212,8 +214,8 @@ def merge_export_data(df_ids: pd.DataFrame, df_values: pd.DataFrame) -> pd.DataF
     ).drop(columns=["_sku_key"])
 
     if df_merged.empty:
-        sample_ids = ids_key[ids_key != ""].head(3).tolist()
-        sample_values = values_key[values_key != ""].head(3).tolist()
+        sample_ids = df_ids.loc[ids_key != "", "sku"].head(3).tolist()
+        sample_values = df_values.loc[values_key != "", "sku"].head(3).tolist()
         raise ValueError(
             f"La fusion n'a retourné aucun résultat. Vérifiez que les SKUs correspondent "
             f"(exemples BeezUP : {sample_ids or 'aucun'} ; exemples dans l'export : "
@@ -455,7 +457,9 @@ def compute_diff(df_api: pd.DataFrame, df_excel: pd.DataFrame, attr_mapping: dic
         raise ValueError("La colonne 'Product Id' est introuvable dans le template.")
 
     df_excel[sku_col_excel] = df_excel[sku_col_excel].apply(normalize_value)
-    df_api["sku"] = df_api["sku"].apply(normalize_value)
+    # L'export est indexé par clé de comparaison (casse comprise) ; le SKU du
+    # template, celui de l'API, reste la valeur reportée dans les updates
+    df_api["sku"] = df_api["sku"].apply(sku_match_key)
 
     df_excel = df_excel.drop_duplicates(subset=[sku_col_excel], keep="last")
     df_api = df_api.drop_duplicates(subset=["sku"], keep="last")
@@ -483,7 +487,8 @@ def compute_diff(df_api: pd.DataFrame, df_excel: pd.DataFrame, attr_mapping: dic
             attributes_to_map.add(attr_id)
 
         for sku in df_excel.index:
-            if sku not in df_api.index:
+            api_key = sku_match_key(sku)
+            if api_key not in df_api.index:
                 continue
 
             product_id = normalize_value(df_excel.at[sku, "Product Id"])
@@ -493,7 +498,7 @@ def compute_diff(df_api: pd.DataFrame, df_excel: pd.DataFrame, attr_mapping: dic
             new_val = normalize_value(df_excel.at[sku, col_excel])
 
             if column_exists_in_export:
-                old_val = normalize_value(df_api.at[sku, attr_code])
+                old_val = normalize_value(df_api.at[api_key, attr_code])
                 if new_val != old_val:
                     updates.append({
                         "sku": sku,

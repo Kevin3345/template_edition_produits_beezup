@@ -138,6 +138,17 @@ def test_merge_export_data_tolerates_numeric_skus_in_export():
     assert result["sku"].tolist() == ["12345", " 678 "]
 
 
+def test_merge_export_data_ignores_sku_case():
+    # Cas réel CDONSE : SKUs en majuscules côté API, en minuscules dans l'export
+    df_ids = pd.DataFrame([{"Product Id": "p1", "sku": "421920_AADOA22831_6_CDONSE"}])
+    df_values = pd.DataFrame([{"sku": "421920_aadoa22831_6_cdonse", "color": "rouge"}])
+
+    result = proc.merge_export_data(df_ids, df_values)
+
+    assert result["sku"].tolist() == ["421920_AADOA22831_6_CDONSE"]
+    assert result["color"].tolist() == ["rouge"]
+
+
 def test_merge_export_data_ignores_empty_skus():
     df_ids = pd.DataFrame([{"Product Id": "p1", "sku": None}])
     df_values = pd.DataFrame([{"sku": None, "color": "x"}])
@@ -179,6 +190,17 @@ class TestComputeDiff:
             "sku": "S1", "product_id": "p1", "attribute_id": "uuid-color",
             "label": "Couleur", "old_value": "bleu", "new_value": "rouge",
         }
+
+    def test_sku_case_differs_from_export(self):
+        # CDON : l'export livre les SKUs en minuscules, le template porte ceux de l'API
+        df_api = pd.DataFrame([{"sku": "421920_aadoa22831_6_cdonse", "color": "bleu"}])
+        df_excel = _template([{"Product Id": "p1", "SKU": "421920_AADOA22831_6_CDONSE", ATTR_COL: "rouge"}])
+
+        updates, _ = proc.compute_diff(df_api, df_excel, ATTR_MAPPING)
+
+        assert len(updates) == 1
+        assert updates[0]["sku"] == "421920_AADOA22831_6_CDONSE"
+        assert updates[0]["old_value"] == "bleu"
 
     def test_identical_value_is_ignored(self):
         df_api = pd.DataFrame([{"sku": "S1", "color": "rouge"}])
