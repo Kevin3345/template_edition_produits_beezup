@@ -660,6 +660,15 @@
     "excluded_attributes": [],
     "category_column": null
   },
+  "SHOWFR": {
+	"required_attributes": [],
+	"excluded_attributes": [
+		"price",
+		"Prix de vente conseillé",
+		"state"
+		],
+	"category_column": "PRODUCT_CATEGORY"
+  },
   "SKROGR": {
     "required_attributes": [],
     "excluded_attributes": [],
@@ -679,7 +688,9 @@
     ],
     "excluded_attributes": [
 		"quantity",
-		"state"
+		"state",
+		"price",
+		"product-id-type"
 	],
     "category_column": "mp_category"
   }
