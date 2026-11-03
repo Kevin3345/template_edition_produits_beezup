@@ -1,4 +1,5 @@
 import json
+import time
 import uuid
 from io import StringIO
 from typing import Optional
@@ -10,6 +11,9 @@ from loguru import logger
 
 # Caractères invisibles parfois présents en tête/queue d'export (BOM, zero-width spaces...)
 _INVISIBLE_CHARS = "\ufeff\u200b\u200c\u200d\u00a0"
+
+# Délais (s) entre les relances du téléchargement d'export quand BeezUP répond 409
+_EXPORT_RETRY_DELAYS = [5, 10, 20]
 
 # Colonnes des DataFrames issus de la route /attributes, explicites pour que
 # le DataFrame reste exploitable même quand le canal n'a aucun attribut par catégorie
@@ -438,7 +442,17 @@ def download_export_file(catalog_id: str) -> Optional[pd.DataFrame]:
     url = f"https://export2.beezup.com/v2/user/channelCatalogs/export/X/X/{catalog_id}"
     logger.info(f"Téléchargement de l'export BeezUP : {url}")
 
-    response = requests.get(url, timeout=30)
+    # BeezUP répond 409 tant que l'export est en cours de génération : on relance
+    for attempt, delay in enumerate(_EXPORT_RETRY_DELAYS + [None], start=1):
+        response = requests.get(url, timeout=30)
+        if response.status_code != 409 or delay is None:
+            break
+        logger.warning(
+            f"Export BeezUP pas encore prêt (409, tentative {attempt}) — "
+            f"nouvel essai dans {delay}s (catalog_id={catalog_id})."
+        )
+        time.sleep(delay)
+
     response.raise_for_status()
 
     if not response.content:
