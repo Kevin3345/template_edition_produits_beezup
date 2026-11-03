@@ -664,7 +664,7 @@
 	"required_attributes": [],
 	"excluded_attributes": [
 		"price",
-		"Prix de vente conseillé",
+		"PRODUCT_RECOMMENDED_RETAIL_PRICE",
 		"state"
 		],
 	"category_column": "PRODUCT_CATEGORY"
