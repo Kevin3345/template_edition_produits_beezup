@@ -13,7 +13,11 @@
       "media_assets_instance_record_2",
       "media_assets_instance_record_3",
       "media_assets_instance_record_4",
-      "media_assets_instance_record_5"
+      "media_assets_instance_record_5",
+	  "trade_contactaddress",
+	  "trade_contactemail",
+	  "trade_contactname",
+	  "trade_contacttelephone"
     ],
     "excluded_attributes": [
       "product-id",
@@ -631,7 +635,11 @@
       "media_assets_instance_record_2",
       "media_assets_instance_record_3",
       "media_assets_instance_record_4",
-      "media_assets_instance_record_5"
+      "media_assets_instance_record_5",
+	  "trade_contactaddress",
+	  "trade_contactemail",
+	  "trade_contactname",
+	  "trade_contacttelephone"
     ],
     "excluded_attributes": [
       "product-id",
