@@ -105,7 +105,9 @@
       "price",
       "product-id",
       "shop_sku",
-      "state"
+      "state",
+      "leadtime-to-ship",
+      "quantity"
     ],
     "category_column": "category"
   },
