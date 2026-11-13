@@ -675,7 +675,9 @@
 	"excluded_attributes": [
 		"price",
 		"PRODUCT_RECOMMENDED_RETAIL_PRICE",
-		"state"
+		"state",
+		"leadtime-to-ship",
+		"quantity"
 		],
 	"category_column": "PRODUCT_CATEGORY"
   },
